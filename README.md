@@ -1,5 +1,4 @@
 Sentinel-X 🔥
-GitHub stars GitHub forks GitHub issues License [blocked] Kali Linux
 
 🚀 Enterprise Red Team Automation Framework
 Sentinel-X is a production-grade security assessment platform that automates the complete attack lifecycle:
