@@ -76,17 +76,23 @@ xdg-open recon/reports/target.com_security_report.html
 
 
 
+
+├```bash
 Sentinel-X/
-├── sentinelx.py                 # 🔥 Main orchestrator (one-command magic)
+├── sentinelx.py              # 🔥 Main orchestrator
 ├── modules/
-│   ├── asset_discovery/         # Passive + aggressive recon
-│   ├── redteam/                 # ULTIMATE exploit engine v2.0
-│   ├── reporting/               # HTML/PDF generation
-│   └── tls_analysis/            # Certificate expiry + HSTS
-├── recon/                       # 🗂️ All outputs organized
-│   ├── raw/, classified/, scored/
-│   ├── exploits/, reports/, tls/
-├── wordlists/                   # Creds + endpoints + hidden dirs
+│   ├── asset_discovery/      # Recon
+│   ├── redteam/              # Exploitation
+│   ├── reporting/            # Reports
+│   └── tls_analysis/         # TLS checks
+├── recon/
+│   ├── raw/
+│   ├── classified/
+│   ├── scored/
+│   ├── exploits/
+│   ├── reports/
+│   └── tls/
+├── wordlists/
 └── requirements.txt
 🎨 Sample Reports
 🔴 RED TEAM PoC (PDF)
