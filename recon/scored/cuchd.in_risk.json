@@ -1,0 +1,17 @@
+{
+  "project": "Sentinel-X",
+  "module": "Risk Scoring",
+  "target": "cuchd.in",
+  "scored_at": "2026-01-29T06:38:34Z",
+  "overall_risk": "MEDIUM",
+  "score": 31,
+  "breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 7,
+    "MEDIUM": 0,
+    "LOW": 9
+  },
+  "key_reasons": [
+    "7 high-risk assets exposed"
+  ]
+}

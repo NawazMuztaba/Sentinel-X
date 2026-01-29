@@ -1,0 +1,17 @@
+{
+  "project": "Sentinel-X",
+  "module": "Risk Scoring",
+  "target": "lpu.in",
+  "scored_at": "2026-01-29T15:26:49Z",
+  "overall_risk": "MEDIUM",
+  "score": 48,
+  "breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 13,
+    "MEDIUM": 0,
+    "LOW": 4
+  },
+  "key_reasons": [
+    "13 high-risk assets exposed"
+  ]
+}

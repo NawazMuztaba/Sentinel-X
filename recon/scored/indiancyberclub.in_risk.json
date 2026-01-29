@@ -1,0 +1,17 @@
+{
+  "project": "Sentinel-X",
+  "module": "Risk Scoring",
+  "target": "indiancyberclub.in",
+  "scored_at": "2026-01-29T06:35:06Z",
+  "overall_risk": "LOW",
+  "score": 10,
+  "breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 1
+  },
+  "key_reasons": [
+    "No significant high-risk exposure detected"
+  ]
+}

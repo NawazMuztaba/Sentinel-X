@@ -1,0 +1,1537 @@
+{
+  "project": "Sentinel-X",
+  "module": "Asset Classification",
+  "target": "amazon.in",
+  "classified_at": "2026-01-28T17:10:28Z",
+  "summary": {
+    "CRITICAL": 0,
+    "HIGH": 64,
+    "MEDIUM": 3,
+    "LOW": 48
+  },
+  "assets": [
+    {
+      "asset": "gstcentral.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.99,
+      "hostname": "gstcentral.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:04:59Z"
+    },
+    {
+      "asset": "logistics.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.58,
+      "hostname": "logistics.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login"
+      ],
+      "classified_at": "2026-01-28T17:05:00Z"
+    },
+    {
+      "asset": "smbhav.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.58,
+      "hostname": "smbhav.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:05:02Z"
+    },
+    {
+      "asset": "care.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.54,
+      "hostname": "care.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:05:05Z"
+    },
+    {
+      "asset": "apx-security.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.6,
+      "hostname": "apx-security.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:05:06Z"
+    },
+    {
+      "asset": "dl.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.19,
+      "hostname": "dl.amazon.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin",
+        "content:/graphql"
+      ],
+      "classified_at": "2026-01-28T17:05:08Z"
+    },
+    {
+      "asset": "dcp-rf1.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.18,
+      "hostname": "dcp-rf1.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:05:12Z"
+    },
+    {
+      "asset": "leadsmanager.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.37,
+      "hostname": "leadsmanager.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:05:13Z"
+    },
+    {
+      "asset": "www.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.7,
+      "hostname": "www.amazon.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin",
+        "content:/graphql"
+      ],
+      "classified_at": "2026-01-28T17:05:15Z"
+    },
+    {
+      "asset": "advertising.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 4.06,
+      "hostname": "advertising.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:05:18Z"
+    },
+    {
+      "asset": "aeswidgets.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.89,
+      "hostname": "aeswidgets.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:05:23Z"
+    },
+    {
+      "asset": "smetrics.smartcommerce.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.96,
+      "hostname": "smetrics.smartcommerce.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:05:24Z"
+    },
+    {
+      "asset": "youraccount.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.75,
+      "hostname": "youraccount.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:05:26Z"
+    },
+    {
+      "asset": "www.business.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.87,
+      "hostname": "www.business.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:05:29Z"
+    },
+    {
+      "asset": "dcp.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.64,
+      "hostname": "dcp.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:05:30Z"
+    },
+    {
+      "asset": "help.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.35,
+      "hostname": "help.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:05:32Z"
+    },
+    {
+      "asset": "carriercentral.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.01,
+      "hostname": "carriercentral.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:05:35Z"
+    },
+    {
+      "asset": "seller-rewards.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 4.05,
+      "hostname": "seller-rewards.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:05:37Z"
+    },
+    {
+      "asset": "smartbiz.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.91,
+      "hostname": "smartbiz.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:05:37Z"
+    },
+    {
+      "asset": "billing-kep.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.62,
+      "hostname": "billing-kep.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:05:39Z"
+    },
+    {
+      "asset": "pay.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 6.06,
+      "hostname": "pay.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:05:40Z"
+    },
+    {
+      "asset": "music.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.51,
+      "hostname": "music.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:05:41Z"
+    },
+    {
+      "asset": "payments.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 5.83,
+      "hostname": "payments.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:05:46Z"
+    },
+    {
+      "asset": "kindlehelp.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.32,
+      "hostname": "kindlehelp.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:05:49Z"
+    },
+    {
+      "asset": "alexa-skills-eu.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.26,
+      "hostname": "alexa-skills-eu.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:05:50Z"
+    },
+    {
+      "asset": "account-p2k.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.84,
+      "hostname": "account-p2k.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:05:53Z"
+    },
+    {
+      "asset": "amztrack.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.69,
+      "hostname": "amztrack.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:05:57Z"
+    },
+    {
+      "asset": "amazonpay-sandbox.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.03,
+      "hostname": "amazonpay-sandbox.amazon.in",
+      "classification": "DEVELOPER",
+      "risk_level": "MEDIUM",
+      "confidence": 0.85,
+      "evidence": [
+        "hostname:sandbox"
+      ],
+      "classified_at": "2026-01-28T17:05:58Z"
+    },
+    {
+      "asset": "drona.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 4.23,
+      "hostname": "drona.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:06:02Z"
+    },
+    {
+      "asset": "Www.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.41,
+      "hostname": "Www.amazon.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin",
+        "content:/graphql"
+      ],
+      "classified_at": "2026-01-28T17:06:04Z"
+    },
+    {
+      "asset": "amazonpay-insurance.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 4.59,
+      "hostname": "amazonpay-insurance.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:06:08Z"
+    },
+    {
+      "asset": "na-api-avs-idrs.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.07,
+      "hostname": "na-api-avs-idrs.amazon.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.85,
+      "evidence": [
+        "hostname:api"
+      ],
+      "classified_at": "2026-01-28T17:06:13Z"
+    },
+    {
+      "asset": "pi.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.07,
+      "hostname": "pi.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:06:15Z"
+    },
+    {
+      "asset": "shipping.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.7,
+      "hostname": "shipping.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:06:19Z"
+    },
+    {
+      "asset": "na-bob-dispatch-prod-alexa.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.23,
+      "hostname": "na-bob-dispatch-prod-alexa.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:06:21Z"
+    },
+    {
+      "asset": "blueprints.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.63,
+      "hostname": "blueprints.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:06:23Z"
+    },
+    {
+      "asset": "www.ams.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 7.51,
+      "hostname": "www.ams.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:06:31Z"
+    },
+    {
+      "asset": "alexa.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.55,
+      "hostname": "alexa.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:06:32Z"
+    },
+    {
+      "asset": "account.kep.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.88,
+      "hostname": "account.kep.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:06:35Z"
+    },
+    {
+      "asset": "catalog-retail.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.5,
+      "hostname": "catalog-retail.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:06:41Z"
+    },
+    {
+      "asset": "payment-prod-test.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.0,
+      "hostname": "payment-prod-test.amazon.in",
+      "classification": "DEVELOPER",
+      "risk_level": "MEDIUM",
+      "confidence": 0.85,
+      "evidence": [
+        "hostname:test"
+      ],
+      "classified_at": "2026-01-28T17:06:44Z"
+    },
+    {
+      "asset": "auxilium-extern-preprod.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.82,
+      "hostname": "auxilium-extern-preprod.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:06:47Z"
+    },
+    {
+      "asset": "alexa-skills-na.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 7.01,
+      "hostname": "alexa-skills-na.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:06:48Z"
+    },
+    {
+      "asset": "faast.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.26,
+      "hostname": "faast.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:06:51Z"
+    },
+    {
+      "asset": "flex.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.73,
+      "hostname": "flex.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:06:52Z"
+    },
+    {
+      "asset": "alexa-skills-beta-eu.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.04,
+      "hostname": "alexa-skills-beta-eu.amazon.in",
+      "classification": "DEVELOPER",
+      "risk_level": "MEDIUM",
+      "confidence": 0.85,
+      "evidence": [
+        "hostname:beta"
+      ],
+      "classified_at": "2026-01-28T17:06:53Z"
+    },
+    {
+      "asset": "sellerflex.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.17,
+      "hostname": "sellerflex.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:06:56Z"
+    },
+    {
+      "asset": "yourorders.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.57,
+      "hostname": "yourorders.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:06:59Z"
+    },
+    {
+      "asset": "accelerator.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.01,
+      "hostname": "accelerator.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:07:02Z"
+    },
+    {
+      "asset": "dp-gw-na.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.02,
+      "hostname": "dp-gw-na.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:07:03Z"
+    },
+    {
+      "asset": "fe-api-avs-idrs.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.14,
+      "hostname": "fe-api-avs-idrs.amazon.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.85,
+      "evidence": [
+        "hostname:api"
+      ],
+      "classified_at": "2026-01-28T17:07:07Z"
+    },
+    {
+      "asset": "track.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.26,
+      "hostname": "track.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:07:09Z"
+    },
+    {
+      "asset": "payment.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.98,
+      "hostname": "payment.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:07:10Z"
+    },
+    {
+      "asset": "eu-bob-dispatch-prod-alexa.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.42,
+      "hostname": "eu-bob-dispatch-prod-alexa.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:07:13Z"
+    },
+    {
+      "asset": "origin-logistics.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.16,
+      "hostname": "origin-logistics.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login"
+      ],
+      "classified_at": "2026-01-28T17:07:15Z"
+    },
+    {
+      "asset": "kindledirectpublishing.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.71,
+      "hostname": "kindledirectpublishing.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/auth"
+      ],
+      "classified_at": "2026-01-28T17:07:18Z"
+    },
+    {
+      "asset": "kindle-help.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.42,
+      "hostname": "kindle-help.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:07:21Z"
+    },
+    {
+      "asset": "your-orders.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.52,
+      "hostname": "your-orders.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:07:24Z"
+    },
+    {
+      "asset": "origin-smartmerchant.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.53,
+      "hostname": "origin-smartmerchant.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:07:26Z"
+    },
+    {
+      "asset": "business.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.34,
+      "hostname": "business.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:07:27Z"
+    },
+    {
+      "asset": "advertisingconnect.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.25,
+      "hostname": "advertisingconnect.amazon.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/api/"
+      ],
+      "classified_at": "2026-01-28T17:07:29Z"
+    },
+    {
+      "asset": "account-status.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.54,
+      "hostname": "account-status.amazon.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin",
+        "content:/graphql"
+      ],
+      "classified_at": "2026-01-28T17:07:33Z"
+    },
+    {
+      "asset": "billing-p2k.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.89,
+      "hostname": "billing-p2k.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:07:34Z"
+    },
+    {
+      "asset": "luna.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.82,
+      "hostname": "luna.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:07:37Z"
+    },
+    {
+      "asset": "kdp.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.83,
+      "hostname": "kdp.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/auth"
+      ],
+      "classified_at": "2026-01-28T17:07:41Z"
+    },
+    {
+      "asset": "documents.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.97,
+      "hostname": "documents.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:07:44Z"
+    },
+    {
+      "asset": "eu-south-2.music.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.89,
+      "hostname": "eu-south-2.music.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:07:45Z"
+    },
+    {
+      "asset": "fe-bob-dispatch-gamma-alexa.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.05,
+      "hostname": "fe-bob-dispatch-gamma-alexa.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:07:58Z"
+    },
+    {
+      "asset": "docs.amazonpay.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.13,
+      "hostname": "docs.amazonpay.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:07:58Z"
+    },
+    {
+      "asset": "smartpos.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.53,
+      "hostname": "smartpos.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:07:59Z"
+    },
+    {
+      "asset": "brandregistry.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 7.52,
+      "hostname": "brandregistry.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login"
+      ],
+      "classified_at": "2026-01-28T17:08:02Z"
+    },
+    {
+      "asset": "primefood-business.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.26,
+      "hostname": "primefood-business.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:08:04Z"
+    },
+    {
+      "asset": "auxilium.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.26,
+      "hostname": "auxilium.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:08:06Z"
+    },
+    {
+      "asset": "smart-pos.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.05,
+      "hostname": "smart-pos.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:08:08Z"
+    },
+    {
+      "asset": "kindel.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.76,
+      "hostname": "kindel.amazon.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin",
+        "content:/graphql"
+      ],
+      "classified_at": "2026-01-28T17:08:11Z"
+    },
+    {
+      "asset": "eu-bob-dispatch-gamma-alexa.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.25,
+      "hostname": "eu-bob-dispatch-gamma-alexa.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:08:14Z"
+    },
+    {
+      "asset": "relay.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.18,
+      "hostname": "relay.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:08:17Z"
+    },
+    {
+      "asset": "twitch.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 7.76,
+      "hostname": "twitch.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:08:24Z"
+    },
+    {
+      "asset": "lendercentral.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.63,
+      "hostname": "lendercentral.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:08:27Z"
+    },
+    {
+      "asset": "www.advertising.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 5.54,
+      "hostname": "www.advertising.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:08:32Z"
+    },
+    {
+      "asset": "ams.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 5.13,
+      "hostname": "ams.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:08:37Z"
+    },
+    {
+      "asset": "beta-sellerflex.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 4.1,
+      "hostname": "beta-sellerflex.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "hostname:beta",
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:08:40Z"
+    },
+    {
+      "asset": "shippercentral-onebox.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.81,
+      "hostname": "shippercentral-onebox.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:08:43Z"
+    },
+    {
+      "asset": "assistant.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.59,
+      "hostname": "assistant.amazon.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin",
+        "content:/graphql"
+      ],
+      "classified_at": "2026-01-28T17:08:46Z"
+    },
+    {
+      "asset": "read.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.7,
+      "hostname": "read.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:08:49Z"
+    },
+    {
+      "asset": "kindle.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.6,
+      "hostname": "kindle.amazon.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin",
+        "content:/graphql"
+      ],
+      "classified_at": "2026-01-28T17:08:53Z"
+    },
+    {
+      "asset": "auth-smartmerchant.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.57,
+      "hostname": "auth-smartmerchant.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.85,
+      "evidence": [
+        "hostname:auth"
+      ],
+      "classified_at": "2026-01-28T17:08:55Z"
+    },
+    {
+      "asset": "smarthub.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.64,
+      "hostname": "smarthub.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:08:58Z"
+    },
+    {
+      "asset": "paywithamazon.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.82,
+      "hostname": "paywithamazon.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:09:05Z"
+    },
+    {
+      "asset": "ship-freight.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.81,
+      "hostname": "ship-freight.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:09:07Z"
+    },
+    {
+      "asset": "gaming.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 6.4,
+      "hostname": "gaming.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:09:12Z"
+    },
+    {
+      "asset": "dtp.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.18,
+      "hostname": "dtp.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/auth"
+      ],
+      "classified_at": "2026-01-28T17:09:15Z"
+    },
+    {
+      "asset": "alexa-skills.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.24,
+      "hostname": "alexa-skills.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:09:16Z"
+    },
+    {
+      "asset": "aam.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.42,
+      "hostname": "aam.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:09:20Z"
+    },
+    {
+      "asset": "alm.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 6.07,
+      "hostname": "alm.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:09:24Z"
+    },
+    {
+      "asset": "ship.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.51,
+      "hostname": "ship.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:09:28Z"
+    },
+    {
+      "asset": "parents.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.79,
+      "hostname": "parents.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:09:31Z"
+    },
+    {
+      "asset": "datavault.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.42,
+      "hostname": "datavault.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:09:36Z"
+    },
+    {
+      "asset": "spcentral.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.4,
+      "hostname": "spcentral.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:09:38Z"
+    },
+    {
+      "asset": "your-account.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.29,
+      "hostname": "your-account.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:09:41Z"
+    },
+    {
+      "asset": "eu-api-avs-idrs.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.38,
+      "hostname": "eu-api-avs-idrs.amazon.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.85,
+      "evidence": [
+        "hostname:api"
+      ],
+      "classified_at": "2026-01-28T17:09:44Z"
+    },
+    {
+      "asset": "avs-idrs.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.02,
+      "hostname": "avs-idrs.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:09:46Z"
+    },
+    {
+      "asset": "fe-bob-dispatch-prod-alexa.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.6,
+      "hostname": "fe-bob-dispatch-prod-alexa.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:09:48Z"
+    },
+    {
+      "asset": "affiliate-program.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.65,
+      "hostname": "affiliate-program.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login"
+      ],
+      "classified_at": "2026-01-28T17:09:49Z"
+    },
+    {
+      "asset": "api-amazondevices.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.45,
+      "hostname": "api-amazondevices.amazon.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.85,
+      "evidence": [
+        "hostname:api"
+      ],
+      "classified_at": "2026-01-28T17:09:52Z"
+    },
+    {
+      "asset": "kumnira.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.75,
+      "hostname": "kumnira.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:09:58Z"
+    },
+    {
+      "asset": "na-bob-dispatch-gamma-alexa.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.51,
+      "hostname": "na-bob-dispatch-gamma-alexa.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:10:00Z"
+    },
+    {
+      "asset": "smetrics-smartcommerce.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.65,
+      "hostname": "smetrics-smartcommerce.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:10:01Z"
+    },
+    {
+      "asset": "alexa-skills-fe.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.18,
+      "hostname": "alexa-skills-fe.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:10:02Z"
+    },
+    {
+      "asset": "orders.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.4,
+      "hostname": "orders.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:10:04Z"
+    },
+    {
+      "asset": "smartcommerce.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.65,
+      "hostname": "smartcommerce.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:10:09Z"
+    },
+    {
+      "asset": "www.cdn.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.68,
+      "hostname": "www.cdn.amazon.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin",
+        "content:/graphql"
+      ],
+      "classified_at": "2026-01-28T17:10:11Z"
+    },
+    {
+      "asset": "snowcentral.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 4.89,
+      "hostname": "snowcentral.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login"
+      ],
+      "classified_at": "2026-01-28T17:10:16Z"
+    },
+    {
+      "asset": "careers.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 5.6,
+      "hostname": "careers.amazon.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-28T17:10:23Z"
+    },
+    {
+      "asset": "renewed.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 5.72,
+      "hostname": "renewed.amazon.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/signin"
+      ],
+      "classified_at": "2026-01-28T17:10:28Z"
+    }
+  ]
+}

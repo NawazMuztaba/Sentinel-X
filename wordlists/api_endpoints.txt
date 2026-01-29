@@ -1,0 +1,5 @@
+/api/users
+/api/v1/students
+/api/admin
+/api/debug
+/api/v1

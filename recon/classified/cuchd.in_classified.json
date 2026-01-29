@@ -1,0 +1,222 @@
+{
+  "project": "Sentinel-X",
+  "module": "Asset Classification",
+  "target": "cuchd.in",
+  "classified_at": "2026-01-29T06:38:34Z",
+  "summary": {
+    "CRITICAL": 0,
+    "HIGH": 7,
+    "MEDIUM": 0,
+    "LOW": 9
+  },
+  "assets": [
+    {
+      "asset": "lms.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.52,
+      "hostname": "lms.cuchd.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login"
+      ],
+      "classified_at": "2026-01-29T06:38:20Z"
+    },
+    {
+      "asset": "cucet.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.6,
+      "hostname": "cucet.cuchd.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-29T06:38:21Z"
+    },
+    {
+      "asset": "www.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.67,
+      "hostname": "www.cuchd.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-29T06:38:21Z"
+    },
+    {
+      "asset": "careers.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.69,
+      "hostname": "careers.cuchd.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-29T06:38:22Z"
+    },
+    {
+      "asset": "culib.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.83,
+      "hostname": "culib.cuchd.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-29T06:38:23Z"
+    },
+    {
+      "asset": "bot.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.86,
+      "hostname": "bot.cuchd.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-29T06:38:23Z"
+    },
+    {
+      "asset": "news.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.0,
+      "hostname": "news.cuchd.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-29T06:38:24Z"
+    },
+    {
+      "asset": "registration.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.06,
+      "hostname": "registration.cuchd.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login"
+      ],
+      "classified_at": "2026-01-29T06:38:25Z"
+    },
+    {
+      "asset": "uims.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.37,
+      "hostname": "uims.cuchd.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-29T06:38:25Z"
+    },
+    {
+      "asset": "international.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.38,
+      "hostname": "international.cuchd.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-29T06:38:25Z"
+    },
+    {
+      "asset": "admissions.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.83,
+      "hostname": "admissions.cuchd.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login"
+      ],
+      "classified_at": "2026-01-29T06:38:27Z"
+    },
+    {
+      "asset": "staff.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.41,
+      "hostname": "staff.cuchd.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login"
+      ],
+      "classified_at": "2026-01-29T06:38:29Z"
+    },
+    {
+      "asset": "www.alumni.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.47,
+      "hostname": "www.alumni.cuchd.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login",
+        "content:/api/"
+      ],
+      "classified_at": "2026-01-29T06:38:31Z"
+    },
+    {
+      "asset": "students.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.49,
+      "hostname": "students.cuchd.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login"
+      ],
+      "classified_at": "2026-01-29T06:38:31Z"
+    },
+    {
+      "asset": "blog.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.92,
+      "hostname": "blog.cuchd.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-29T06:38:32Z"
+    },
+    {
+      "asset": "alumni.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.41,
+      "hostname": "alumni.cuchd.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login",
+        "content:/api/"
+      ],
+      "classified_at": "2026-01-29T06:38:34Z"
+    }
+  ]
+}

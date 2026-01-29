@@ -1,0 +1,3993 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Sentinel-X Unified Security Report</title>
+<style>
+body {
+    background: #050b18;
+    color: #e6e6e6;
+    font-family: Arial;
+    padding: 20px;
+}
+h1 { color:#4fd1ff; }
+.card {
+    background:#0b132b;
+    padding:20px;
+    margin-bottom:20px;
+    border-radius:10px;
+}
+table {
+    width:100%;
+    border-collapse:collapse;
+}
+th,td {
+    padding:10px;
+    border-bottom:1px solid #222;
+}
+th { color:#4fd1ff; }
+</style>
+</head>
+
+<body>
+<h1>Sentinel-X Unified Security Report</h1>
+<p><b>Target:</b> amazon.in</p>
+<p><b>Generated:</b> 2026-01-28T17:15:58.089983 UTC</p>
+
+<div class="card">
+<h2>Executive Summary</h2>
+<p>Total Assets: 443</p>
+<p>Live Assets: 115</p>
+<p>Overall Risk: MEDIUM</p>
+</div>
+
+<div class="card">
+<h2>Attack Surface Overview</h2>
+<ul>
+<li>Login Portals: 51</li>
+<li>APIs: 13</li>
+<li>Dev Assets: 3</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Asset Inventory</h2>
+<table>
+<tr><th>Asset</th><th>Status</th><th>Classification</th><th>Risk</th></tr>
+
+        <tr>
+            <td>feed-browserapps.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>fastly-www.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alx-inbound.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>klite-services.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>soap.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>primefood-sfis-gamma.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>ramptaxapi.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>cmu-receiver-eu.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>tp.26b28e904-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>gstcentral.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>logistics.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>smbhav.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>care.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>apx-security.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>cookie.browserapps.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.ausellercentralconfig.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>hub.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>dl.amazon.in</td>
+            <td>LIVE</td>
+            <td>API_ENDPOINT</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>dcp-rf1.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>na-api-alexa.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>leadsmanager.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>guipitan.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>banyan.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alexa-skills.corp.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>www.amazon.in</td>
+            <td>LIVE</td>
+            <td>API_ENDPOINT</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>brandanalytics.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>adobe.sellercentral.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>p-nt-www-amazon-in-kalias.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.auwww22config.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>advertising.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>lwa.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>aeswidgets.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>mail.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>smetrics.smartcommerce.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>pay.integ.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>internal-campfire-eu.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>youraccount.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>www.business.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>associates.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>dcp.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>help.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>origin-completion.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.www.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>gql-edge.music.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>tp.c95e7e602-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>carriercentral.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.aucdnconfig.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>seller-rewards.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>smartbiz.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>webservices.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>billing-kep.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>pay.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>sellercentral.cdn.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>sellers.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>eu-west-1.beta.proxy.live.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>jeeready.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>dossier.browserapps.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>se-cde-ta-g7g.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>origin-www.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>music.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>origin-dl.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>payments.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>kindlehelp.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>paywithamazon-sandbox.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>sirius-soroco.ahs-in.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alexa-skills-eu.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>pay-onboarding.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>hfc-flightsprod.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>logistics-extern-preprod.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>amazonpayinsurance.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>account-p2k.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>seller-central-pilot.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>tp.806808d7b-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.weparentsisk.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>msh-tablet.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>7752cfcf.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>aax-eu.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>migration.business.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>catalog-mapper-in.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>skills-store-eu.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>amztrack.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>api.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>hfc-prod.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alpha-smartmerchant.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>omega-smartmerchant.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>smartmerchant.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>identity-browserapps.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.autocsmbhavfig.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>amazonpay-sandbox.amazon.in</td>
+            <td>LIVE</td>
+            <td>DEVELOPER</td>
+            <td>MEDIUM</td>
+        </tr>
+        
+        <tr>
+            <td>dp-gw-preprod.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>www.logistics.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.brandservicesdisk.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>adobe.sell.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>kindlesupport.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>amazonpay-test.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>horizonte.browserapps.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>drona.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>opf-sellercentral.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>payatstore-partner.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>test-primefood-business.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>Www.amazon.in</td>
+            <td>LIVE</td>
+            <td>API_ENDPOINT</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>amazonpay-insurance.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>sanakash-mons-poc-opf.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>dcp-zaz.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>track-sandbox.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>how-crowdstrike-helps.autodispartnerver.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>na-api-avs-idrs.amazon.in</td>
+            <td>LIVE</td>
+            <td>API_ENDPOINT</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.autsupportonfig.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>hfc-flights-prod.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>pi.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>tp.7106690f1-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>uatpayatstorepartner.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>shipping.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>na-bob-dispatch-prod-alexa.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>blueprints.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>www.ams.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>akamai-renew-cert-digicert.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>care-provider.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>rf-completion.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>connectcentral-gamma.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>tp.35f9b2fd8-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>offlinepay.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>dev-business.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>kep.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>support.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>test.payatstore.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>tp.fd3c5e3ba-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>tp.812cdbe56-frontier.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>spncentral.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alexa.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>sellerflex-alt-zslgzmyb.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>account.kep.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>product.browserapps.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>payatstore_partner.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>merchants.offlinepay.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.autodpaycover.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>sockets.amazonpay.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>dossier-browserapps.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>ara.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alb-v2.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alexaskills.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>catalog-retail.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>glimpse-feed.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>aax-eu-zaz.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>payment-prod-test.amazon.in</td>
+            <td>LIVE</td>
+            <td>DEVELOPER</td>
+            <td>MEDIUM</td>
+        </tr>
+        
+        <tr>
+            <td>msh.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.amscover.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>origin-spcentral.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>hfc-flights-beta.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>eu-api-alexa.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>payatstorepartner.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>auxilium-extern-preprod.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>transportation.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>parent.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>tp.eba050a72-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>gwapc.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>mt.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>personal-loans-ltfs-prod-encryption-key.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrikevalueslottie.autohub.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>ddee.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>tp.5ef29552c-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>data.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.autcustomerserviceonfig.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alexa-skills-na.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>hfc-flightsbeta.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>faast.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>amazonpay.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>wishlist.browserapps.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.logisticstodiscover.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>flex.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>dpa-filer02.pironet-ndh.cow-na.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>unagi-eu.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>api.eu-west-1.beta.proxy.live.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>fls-eu-opf.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alexa-skills-beta-eu.amazon.in</td>
+            <td>LIVE</td>
+            <td>DEVELOPER</td>
+            <td>MEDIUM</td>
+        </tr>
+        
+        <tr>
+            <td>origin-sellercentral.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>sellerflex.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>www.seller-rewards.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>beta.gql.music.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>jeeready-content.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>blog.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>yourorders.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>freight.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.autodisbrandservicesver.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>accelerator.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>alexa-comms-mobile-service.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>dp-gw-na.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>tp.deb88e61d-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>eu-west-1.gamma.proxy.live.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>shm.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>api.eu-west-1.prod.proxy.live.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>fe-api-avs-idrs.amazon.in</td>
+            <td>LIVE</td>
+            <td>API_ENDPOINT</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>arap.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>advantage.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>xml.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>argileto.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>tp.ba0d17e34-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>track.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>payment.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>ablistswidgethorizonte.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>osc-test.pay.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>personal-loans-axis-prod-signature-key.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>eu-bob-dispatch-prod-alexa.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>tp.4301f2b38-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>sadobe.sell.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>sadobe.sellercentral.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>origin-logistics.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>content-drive.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>origin-amazonpay.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>origin-music.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.autosmbhav.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>kindledirectpublishing.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>kindle-help.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>glowroad-auth.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>arcus-www.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.autocunagifig.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>transient.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>genie.amazonpay.amazon.in.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>www.pi.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>test-pdp.pay.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>sellercentral.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>puptrack-eu.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>gql.music.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>your-orders.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>socket.amazonpay.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>origin-smartmerchant.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>www16.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>business.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>paynow.uat-pod.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>advertisingconnect.amazon.in</td>
+            <td>LIVE</td>
+            <td>API_ENDPOINT</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>account-status.amazon.in</td>
+            <td>LIVE</td>
+            <td>API_ENDPOINT</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>kep-eu.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>al-eu-apiproxy.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>beta.buywithamazon.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>fls-gamma-eu.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>origin-academy.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>kindle-guru.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>billing-p2k.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>glimpse-publish.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>luna.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>elinks.business.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>kdp.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>www.services.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>documents.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>10312029134.network.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>aan.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>sophap.beta.gql.music.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>services.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>aba.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>brandservices.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>irctc.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>tp.e4bd4c714-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>gamma.buywithamazon.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>7c52cf103-frontier.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>kyc.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>eu-south-2.music.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>sellerflex-alt-zslgzmy.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>lb.eu-west-1.beta.proxy.live.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>fe-bob-dispatch-gamma-alexa.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>customer-service.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>customerservice.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>sirius-soroco-ahs.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.autyouraccountonfig.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>fe-api-alexa.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>kindle-store-proxy-endpoint.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>hfc-devo.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>docs.amazonpay.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>smartpos.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>p-y3-www-amazon-in-kalias.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>cde-ta-g7g-preprod.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>brandregistry.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>hfc-ext-prod.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>stage-business.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>tp.e560af0d0-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.flextodiscover.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>primefood-business.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>tp.991aed0e8-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.autocflexfig.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>fls-eu.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>auxilium.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>personal-loans-ltfs-beta-signature-key.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.apayodiscover.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>feed.browserapps.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>dropship.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>digprjsurvey.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>m.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>storedashboard.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>smart-pos.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>kindel.amazon.in</td>
+            <td>LIVE</td>
+            <td>API_ENDPOINT</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>paynow.pod.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>sha256.webservices.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alexa-skills-beta-na.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>eu-bob-dispatch-gamma-alexa.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>relay.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>alexa-comms-mobile-service-gamma.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>test-www.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>twitch.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>lendercentral.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>www.advertising.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>ams.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>hfc-cygnus-beta-in.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>beta-sellerflex.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>sdu.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>shippercentral-onebox.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>asmw.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>assistant.amazon.in</td>
+            <td>LIVE</td>
+            <td>API_ENDPOINT</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>skills-store-fe.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>read.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>kindle.amazon.in</td>
+            <td>LIVE</td>
+            <td>API_ENDPOINT</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>connectcentral.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>sellerflex.amazon.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>tp.cbc0dfae1-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>auth-smartmerchant.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>test.lwa.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>cde-ta-g7g.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>hfc-beta.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>sell.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>kindlestore-sha-proxy.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>skills-store.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>smarthub.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>paywithamazon.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>devo.lwa.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>care-api.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>reporter-browserapps.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>vcs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alexa-smart-nudge.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>p-yo-www-amazon-in-kalias.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>ship-freight.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>identity.browserapps.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>test.pay.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>catalog-sc.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>tp.7c52cf103-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>www22.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>reinstate.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>subscription.denali.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>swiship.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>abintegrations.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>care-pfs.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>tp.7db87a427-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>mobile-identity.browserapps.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>supplychainconnect.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>terrier.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>gaming.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>dtp.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>lb.eu-west-1.gamma.proxy.live.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>skills-store-na.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>vendorcentral.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>email.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>personal-loans-ltfs-beta-encryption-key.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>payments-onboarding.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>seller-tools.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>academy.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alexa-skills.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.aucarediscover.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>www.partner.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>partner.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>storage-browserapps.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>payatstore.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>frontier-dev.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>updates.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>hfc-movies-prod.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alb.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>aam.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>seller.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>pdp.pay.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alm.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>a9g-api.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>pinnacle-api.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>www17.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>buywithamazon.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>ddee-preprod.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>care-mkuppire.corp.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alexaskills.corp.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>creditagents.amazonpay.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>amazon-now.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>opf-www.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.autodcustomerservicecover.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>ship.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>parents.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>datavault.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>alexa-skills-beta-fe.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>iss-widgets.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>payatstoreuat.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>spcentral.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>your-account.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>atv-ps-eu.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>eu-west-1.prod.proxy.live.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>sales-edge.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.customer-servicebdisk.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>udaan-associate-service.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>unagi.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>lb.eu-west-1.prod.proxy.live.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>eu-api-avs-idrs.amazon.in</td>
+            <td>LIVE</td>
+            <td>API_ENDPOINT</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>primefood-sfis.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>avs-idrs.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>fe-bob-dispatch-prod-alexa.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>affiliate-program.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>ship.freight.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>api-amazondevices.amazon.in</td>
+            <td>LIVE</td>
+            <td>API_ENDPOINT</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>appx.transient.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>origin-supplychainconnect.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>kumnira.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>payment.integ.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>reporter.browserapps.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>na-bob-dispatch-gamma-alexa.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>smetrics-smartcommerce.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>smetrics.flex.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>data-exchange.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alexa-skills-beta.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>alexa-skills-fe.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>origin-eusouth2-www.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>storage.browserapps.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>personal-loans-axis-prod-encryption-key.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>orders.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>ssofaast.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>sadobe.services.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>completion.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>selection.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>osc.pay.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>www14.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>personal-loans-ltfs-prod-signature-key.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>aps.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>browserapps.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>crowdstrike.autobrandservicesnfig.jobs.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>smartcommerce.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>www.cdn.amazon.in</td>
+            <td>LIVE</td>
+            <td>API_ENDPOINT</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>freetime.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>edgeflow-dp.aero.c95e7e602-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>author.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>store-login.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>edgeflow.aero.c95e7e602-frontier.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>snowcentral.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>careers.amazon.in</td>
+            <td>LIVE</td>
+            <td>STATIC_SITE</td>
+            <td>LOW</td>
+        </tr>
+        
+        <tr>
+            <td>renewed.amazon.in</td>
+            <td>LIVE</td>
+            <td>LOGIN_PORTAL</td>
+            <td>HIGH</td>
+        </tr>
+        
+        <tr>
+            <td>cdn.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>widgets.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>store.amazon.in</td>
+            <td>DEAD</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>api.eu-west-1.gamma.proxy.live.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>www.store.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+        <tr>
+            <td>thumbnails-photos.amazon.in</td>
+            <td>RESTRICTED</td>
+            <td>N/A</td>
+            <td>N/A</td>
+        </tr>
+        
+</table>
+</div>
+
+<div class="card">
+<h2>TLS Deep Dive</h2>
+<table>
+<tr><th>Asset</th><th>Risk</th><th>HTTPS</th><th>Expiry (Days)</th></tr>
+
+        <tr>
+            <td>gstcentral.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>81 </td>
+        </tr>
+        
+        <tr>
+            <td>logistics.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>332 </td>
+        </tr>
+        
+        <tr>
+            <td>smbhav.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>79 </td>
+        </tr>
+        
+        <tr>
+            <td>care.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>95 </td>
+        </tr>
+        
+        <tr>
+            <td>apx-security.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>228 </td>
+        </tr>
+        
+        <tr>
+            <td>dl.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>224 </td>
+        </tr>
+        
+        <tr>
+            <td>dcp-rf1.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>218 </td>
+        </tr>
+        
+        <tr>
+            <td>leadsmanager.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>224 </td>
+        </tr>
+        
+        <tr>
+            <td>www.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>354 </td>
+        </tr>
+        
+        <tr>
+            <td>advertising.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>210 </td>
+        </tr>
+        
+        <tr>
+            <td>aeswidgets.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>81 </td>
+        </tr>
+        
+        <tr>
+            <td>smetrics.smartcommerce.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>116 </td>
+        </tr>
+        
+        <tr>
+            <td>youraccount.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>271 </td>
+        </tr>
+        
+        <tr>
+            <td>www.business.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>248 </td>
+        </tr>
+        
+        <tr>
+            <td>dcp.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>136 </td>
+        </tr>
+        
+        <tr>
+            <td>help.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>271 </td>
+        </tr>
+        
+        <tr>
+            <td>carriercentral.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>186 </td>
+        </tr>
+        
+        <tr>
+            <td>seller-rewards.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>267 </td>
+        </tr>
+        
+        <tr>
+            <td>smartbiz.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>45 ⚠</td>
+        </tr>
+        
+        <tr>
+            <td>billing-kep.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>33 ⚠</td>
+        </tr>
+        
+        <tr>
+            <td>pay.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>243 </td>
+        </tr>
+        
+        <tr>
+            <td>music.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>223 </td>
+        </tr>
+        
+        <tr>
+            <td>payments.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>267 </td>
+        </tr>
+        
+        <tr>
+            <td>kindlehelp.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>271 </td>
+        </tr>
+        
+        <tr>
+            <td>alexa-skills-eu.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>218 </td>
+        </tr>
+        
+        <tr>
+            <td>account-p2k.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>136 </td>
+        </tr>
+        
+        <tr>
+            <td>amztrack.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>78 </td>
+        </tr>
+        
+        <tr>
+            <td>amazonpay-sandbox.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>243 </td>
+        </tr>
+        
+        <tr>
+            <td>drona.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>220 </td>
+        </tr>
+        
+        <tr>
+            <td>Www.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>354 </td>
+        </tr>
+        
+        <tr>
+            <td>amazonpay-insurance.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>215 </td>
+        </tr>
+        
+        <tr>
+            <td>na-api-avs-idrs.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>135 </td>
+        </tr>
+        
+        <tr>
+            <td>pi.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>81 </td>
+        </tr>
+        
+        <tr>
+            <td>shipping.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>199 </td>
+        </tr>
+        
+        <tr>
+            <td>na-bob-dispatch-prod-alexa.amazon.in</td>
+            <td>MEDIUM</td>
+            <td>❌</td>
+            <td>191 </td>
+        </tr>
+        
+        <tr>
+            <td>blueprints.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>267 </td>
+        </tr>
+        
+        <tr>
+            <td>www.ams.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>227 </td>
+        </tr>
+        
+        <tr>
+            <td>alexa.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>126 </td>
+        </tr>
+        
+        <tr>
+            <td>account.kep.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>210 </td>
+        </tr>
+        
+        <tr>
+            <td>catalog-retail.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>242 </td>
+        </tr>
+        
+        <tr>
+            <td>payment-prod-test.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>243 </td>
+        </tr>
+        
+        <tr>
+            <td>auxilium-extern-preprod.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>366 </td>
+        </tr>
+        
+        <tr>
+            <td>alexa-skills-na.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>248 </td>
+        </tr>
+        
+        <tr>
+            <td>faast.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>255 </td>
+        </tr>
+        
+        <tr>
+            <td>flex.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>320 </td>
+        </tr>
+        
+        <tr>
+            <td>alexa-skills-beta-eu.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>252 </td>
+        </tr>
+        
+        <tr>
+            <td>sellerflex.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>307 </td>
+        </tr>
+        
+        <tr>
+            <td>yourorders.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>271 </td>
+        </tr>
+        
+        <tr>
+            <td>accelerator.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>218 </td>
+        </tr>
+        
+        <tr>
+            <td>dp-gw-na.amazon.in</td>
+            <td>MEDIUM</td>
+            <td>❌</td>
+            <td>134 </td>
+        </tr>
+        
+        <tr>
+            <td>fe-api-avs-idrs.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>135 </td>
+        </tr>
+        
+        <tr>
+            <td>track.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>243 </td>
+        </tr>
+        
+        <tr>
+            <td>payment.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>81 </td>
+        </tr>
+        
+        <tr>
+            <td>eu-bob-dispatch-prod-alexa.amazon.in</td>
+            <td>MEDIUM</td>
+            <td>❌</td>
+            <td>260 </td>
+        </tr>
+        
+        <tr>
+            <td>origin-logistics.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>207 </td>
+        </tr>
+        
+        <tr>
+            <td>kindledirectpublishing.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>212 </td>
+        </tr>
+        
+        <tr>
+            <td>kindle-help.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>271 </td>
+        </tr>
+        
+        <tr>
+            <td>your-orders.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>271 </td>
+        </tr>
+        
+        <tr>
+            <td>origin-smartmerchant.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>258 </td>
+        </tr>
+        
+        <tr>
+            <td>business.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>236 </td>
+        </tr>
+        
+        <tr>
+            <td>advertisingconnect.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>211 </td>
+        </tr>
+        
+        <tr>
+            <td>account-status.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>225 </td>
+        </tr>
+        
+        <tr>
+            <td>billing-p2k.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>33 ⚠</td>
+        </tr>
+        
+        <tr>
+            <td>luna.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>204 </td>
+        </tr>
+        
+        <tr>
+            <td>kdp.amazon.in</td>
+            <td>HIGH</td>
+            <td>✅</td>
+            <td>N/A </td>
+        </tr>
+        
+        <tr>
+            <td>documents.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>201 </td>
+        </tr>
+        
+        <tr>
+            <td>eu-south-2.music.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>172 </td>
+        </tr>
+        
+        <tr>
+            <td>fe-bob-dispatch-gamma-alexa.amazon.in</td>
+            <td>MEDIUM</td>
+            <td>❌</td>
+            <td>194 </td>
+        </tr>
+        
+        <tr>
+            <td>docs.amazonpay.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>32 ⚠</td>
+        </tr>
+        
+        <tr>
+            <td>smartpos.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>373 </td>
+        </tr>
+        
+        <tr>
+            <td>brandregistry.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>243 </td>
+        </tr>
+        
+        <tr>
+            <td>primefood-business.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>81 </td>
+        </tr>
+        
+        <tr>
+            <td>auxilium.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>81 </td>
+        </tr>
+        
+        <tr>
+            <td>smart-pos.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>243 </td>
+        </tr>
+        
+        <tr>
+            <td>kindel.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>261 </td>
+        </tr>
+        
+        <tr>
+            <td>eu-bob-dispatch-gamma-alexa.amazon.in</td>
+            <td>MEDIUM</td>
+            <td>❌</td>
+            <td>236 </td>
+        </tr>
+        
+        <tr>
+            <td>relay.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>81 </td>
+        </tr>
+        
+        <tr>
+            <td>twitch.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>137 </td>
+        </tr>
+        
+        <tr>
+            <td>lendercentral.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>80 </td>
+        </tr>
+        
+        <tr>
+            <td>www.advertising.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>210 </td>
+        </tr>
+        
+        <tr>
+            <td>ams.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>227 </td>
+        </tr>
+        
+        <tr>
+            <td>beta-sellerflex.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>267 </td>
+        </tr>
+        
+        <tr>
+            <td>shippercentral-onebox.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>81 </td>
+        </tr>
+        
+        <tr>
+            <td>assistant.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>271 </td>
+        </tr>
+        
+        <tr>
+            <td>read.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>81 </td>
+        </tr>
+        
+        <tr>
+            <td>kindle.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>261 </td>
+        </tr>
+        
+        <tr>
+            <td>auth-smartmerchant.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>243 </td>
+        </tr>
+        
+        <tr>
+            <td>smarthub.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>307 </td>
+        </tr>
+        
+        <tr>
+            <td>paywithamazon.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>267 </td>
+        </tr>
+        
+        <tr>
+            <td>ship-freight.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>226 </td>
+        </tr>
+        
+        <tr>
+            <td>gaming.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>210 </td>
+        </tr>
+        
+        <tr>
+            <td>dtp.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>212 </td>
+        </tr>
+        
+        <tr>
+            <td>alexa-skills.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>218 </td>
+        </tr>
+        
+        <tr>
+            <td>aam.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>220 </td>
+        </tr>
+        
+        <tr>
+            <td>alm.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>243 </td>
+        </tr>
+        
+        <tr>
+            <td>ship.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>243 </td>
+        </tr>
+        
+        <tr>
+            <td>parents.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>267 </td>
+        </tr>
+        
+        <tr>
+            <td>datavault.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>249 </td>
+        </tr>
+        
+        <tr>
+            <td>spcentral.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>267 </td>
+        </tr>
+        
+        <tr>
+            <td>your-account.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>271 </td>
+        </tr>
+        
+        <tr>
+            <td>eu-api-avs-idrs.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>135 </td>
+        </tr>
+        
+        <tr>
+            <td>avs-idrs.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>135 </td>
+        </tr>
+        
+        <tr>
+            <td>fe-bob-dispatch-prod-alexa.amazon.in</td>
+            <td>MEDIUM</td>
+            <td>❌</td>
+            <td>244 </td>
+        </tr>
+        
+        <tr>
+            <td>affiliate-program.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>137 </td>
+        </tr>
+        
+        <tr>
+            <td>api-amazondevices.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>230 </td>
+        </tr>
+        
+        <tr>
+            <td>kumnira.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>81 </td>
+        </tr>
+        
+        <tr>
+            <td>na-bob-dispatch-gamma-alexa.amazon.in</td>
+            <td>CRITICAL</td>
+            <td>❌</td>
+            <td>N/A </td>
+        </tr>
+        
+        <tr>
+            <td>smetrics-smartcommerce.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>171 </td>
+        </tr>
+        
+        <tr>
+            <td>alexa-skills-fe.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>223 </td>
+        </tr>
+        
+        <tr>
+            <td>orders.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>261 </td>
+        </tr>
+        
+        <tr>
+            <td>smartcommerce.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>203 </td>
+        </tr>
+        
+        <tr>
+            <td>www.cdn.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>354 </td>
+        </tr>
+        
+        <tr>
+            <td>snowcentral.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>73 </td>
+        </tr>
+        
+        <tr>
+            <td>careers.amazon.in</td>
+            <td>CRITICAL</td>
+            <td>❌</td>
+            <td>N/A </td>
+        </tr>
+        
+        <tr>
+            <td>renewed.amazon.in</td>
+            <td>LOW</td>
+            <td>✅</td>
+            <td>271 </td>
+        </tr>
+        
+</table>
+</div>
+
+<div class="card">
+<h2>Key Findings</h2>
+<ul>
+<li>Some assets do not enforce HTTPS</li>
+<li>Login portals are publicly exposed</li>
+<li>Certificates expiring within 60 days detected</li>
+</ul>
+
+<h2>Recommendations</h2>
+<ul>
+<li>Enforce HTTPS redirects</li>
+<li>Enable HSTS</li>
+<li>Restrict access to login portals</li>
+<li>Monitor TLS certificate expiry</li>
+</ul>
+</div>
+
+</body>
+</html>

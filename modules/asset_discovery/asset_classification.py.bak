@@ -1,0 +1,271 @@
+#!/usr/bin/env python3
+"""
+Sentinel-X | Module: Asset Classification
+Version: 1.0
+Purpose: Classify LIVE assets by purpose/risk
+Ethical: Passive header/title analysis only
+"""
+
+import os
+import json
+import sys
+import requests
+from urllib.parse import urlparse
+import re
+from typing import List, Dict, Any
+import time
+
+BASE_DIR = os.path.expanduser("~/SentinelX")
+INPUT_DIR = os.path.join(BASE_DIR, "recon", "validated")
+OUTPUT_DIR = os.path.join(BASE_DIR, "recon", "classified")
+LOG_DIR = os.path.join(BASE_DIR, "logs", "classification")
+
+# Classification Rules (keyword-based, passive)
+CLASSIFICATION_RULES = {
+    "LOGIN_PORTAL": [
+        "login", "signin", "sign-in", "auth", "authentication",
+        "log in", "sign in", "user login", "my account",
+        "dashboard", "portal", "session"
+    ],
+    "ADMIN_PANEL": [
+        "admin", "administrator", "wp-admin", "wp-login",
+        "control panel", "cpanel", "panel", "management",
+        "backend", "backoffice", "superadmin"
+    ],
+    "API_ENDPOINT": [
+        "api", "graphql", "rest", "v1", "v2", "v3",
+        "/api/", "/v1/", "/graphql", "swagger", "openapi"
+    ],
+    "FILE_SHARE": [
+        "files", "download", "upload", "share", "storage",
+        "s3", "bucket", "drive", "dropbox"
+    ],
+    "CMS_PANEL": [
+        "wordpress", "drupal", "joomla", "magento",
+        "content management", "cms", "siteadmin"
+    ],
+    "DEVELOPER": [
+        "dev", "staging", "test", "beta", "preview",
+        "development", "sandbox"
+    ]
+}
+
+# Risk scoring based on classification
+RISK_SCORES = {
+    "ADMIN_PANEL": "CRITICAL",
+    "LOGIN_PORTAL": "HIGH", 
+    "API_ENDPOINT": "HIGH",
+    "FILE_SHARE": "HIGH",
+    "CMS_PANEL": "MEDIUM",
+    "DEVELOPER": "MEDIUM",
+    "STATIC_SITE": "LOW",
+    "UNKNOWN": "LOW"
+}
+
+def ensure_dirs():
+    """Create output directories"""
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    os.makedirs(LOG_DIR, exist_ok=True)
+
+def load_validated_assets(json_file: str) -> List[Dict]:
+    """Load LIVE assets from validation JSON"""
+    try:
+        with open(json_file, 'r') as f:
+            data = json.load(f)
+        
+        # Only process LIVE assets
+        live_assets = [
+            asset for asset in data.get('assets', [])
+            if asset.get('status') == 'LIVE'
+        ]
+        return live_assets
+    except Exception as e:
+        print(f"[!] Error loading {json_file}: {e}")
+        return []
+
+def classify_asset(asset: Dict) -> Dict:
+    """
+    Classify single LIVE asset based on passive signals
+    """
+    hostname = asset['hostname']
+    title = asset.get('title', '').lower()
+    server = asset.get('server', '').lower()
+    
+    # Default classification
+    classification = "STATIC_SITE"
+    confidence = 0.5
+    evidence = []
+    
+    # Check URL/hostname patterns first
+    hostname_lower = hostname.lower()
+    for asset_type, keywords in CLASSIFICATION_RULES.items():
+        for keyword in keywords:
+            if keyword in hostname_lower:
+                classification = asset_type
+                confidence = 0.8
+                evidence.append(f"hostname:{keyword}")
+                break
+    
+    # Check page title
+    for asset_type, keywords in CLASSIFICATION_RULES.items():
+        for keyword in keywords:
+            if keyword in title:
+                classification = asset_type
+                confidence = max(confidence, 0.9)
+                evidence.append(f"title:{keyword}")
+                break
+    
+    # Check server headers
+    if any(cms in server for cms in ["wordpress", "apache", "nginx"]):
+        if classification == "STATIC_SITE":
+            classification = "CMS_PANEL"
+    
+    # Deep page scan (ethical, single GET request)
+    try:
+        resp = requests.get(
+            f"https://{hostname}",
+            timeout=8,
+            headers={'User-Agent': 'Sentinel-X/1.0'},
+            verify=False
+        )
+        
+        # Path analysis
+        paths = [
+            "/login", "/admin", "/api", "/dashboard",
+            "/wp-admin", "/wp-login.php"
+        ]
+        
+        for path in paths:
+            if path in resp.text.lower() or path.replace('/', '') in resp.text.lower():
+                if "admin" in path:
+                    classification = "ADMIN_PANEL"
+                elif "login" in path:
+                    classification = "LOGIN_PORTAL"
+                elif "api" in path:
+                    classification = "API_ENDPOINT"
+                evidence.append(f"content:{path}")
+                break
+        
+        # Meta generator tags
+        generator_match = re.search(r'<meta[^>]*generator["\']([^"\']*)', resp.text, re.I)
+        if generator_match:
+            gen = generator_match.group(1).lower()
+            if "wordpress" in gen:
+                classification = "CMS_PANEL"
+                evidence.append(f"generator:{gen}")
+    
+    except:
+        pass  # Graceful failure
+    
+    # Final result
+    result = asset.copy()
+    result.update({
+        "classification": classification,
+        "risk_level": RISK_SCORES.get(classification, "LOW"),
+        "confidence": round(confidence, 2),
+        "evidence": evidence[:3],  # Top 3 signals only
+        "classified_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime())
+    })
+    
+    return result
+
+def main():
+    if len(sys.argv) != 2:
+        print("Usage: python3 asset_classification.py <domain>")
+        print("Example: python3 asset_classification.py lpu.in")
+        sys.exit(1)
+    
+    domain = sys.argv[1]
+    ensure_dirs()
+    
+    print(f"[✓] Sentinel-X Asset Classification")
+    print(f"[+] Target: {domain}")
+    print("-" * 60)
+    
+    # Find validated JSON
+    import glob
+    input_files = glob.glob(f"{INPUT_DIR}/{domain}_validated.json")
+    
+    if not input_files:
+        print(f"[!] No validated data found!")
+        print(f"Run first: python3 asset_validation.py {domain}")
+        sys.exit(1)
+    
+    input_file = input_files[0]
+    print(f"[+] Input: {input_file}")
+    
+    # Load LIVE assets only
+    live_assets = load_validated_assets(input_file)
+    print(f"[+] {len(live_assets)} LIVE assets to classify")
+    
+    if not live_assets:
+        print("[!] No LIVE assets found. Nothing to classify.")
+        sys.exit(0)
+    
+    # Classify each asset
+    print("[+] Classifying assets...")
+    classified_assets = []
+    for asset in live_assets:
+        classified = classify_asset(asset)
+        classified_assets.append(classified)
+        
+        # Live progress
+        status = classified['classification']
+        print(f"  {classified['hostname']:<25} → {status:<15} ({classified['risk_level']})")
+        time.sleep(0.1)  # Rate limit
+    
+    # Generate report
+    report = {
+        "project": "Sentinel-X",
+        "module": "Asset Classification",
+        "target": domain,
+        "classified_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+        "summary": {
+            "total_live_assets": len(live_assets),
+            "by_classification": {},
+            "by_risk": {
+                "CRITICAL": 0, "HIGH": 0, "MEDIUM": 0, "LOW": 0
+            }
+        },
+        "assets": classified_assets
+    }
+    
+    # Calculate summary stats
+    for asset in classified_assets:
+        cls = asset['classification']
+        risk = asset['risk_level']
+        
+        report['summary']['by_classification'][cls] = report['summary']['by_classification'].get(cls, 0) + 1
+        report['summary']['by_risk'][risk] = report['summary']['by_risk'].get(risk, 0) + 1
+    
+    # Save classified report
+    output_file = os.path.join(OUTPUT_DIR, f"{domain}_classified.json")
+    with open(output_file, 'w') as f:
+        json.dump(report, f, indent=2)
+    
+    # Print executive summary
+    print("\n" + "="*70)
+    print("CLASSIFICATION COMPLETE")
+    print(f"🎯 {len(classified_assets)} assets classified")
+    
+    print("\n📊 BY CLASSIFICATION:")
+    for cls, count in report['summary']['by_classification'].items():
+        print(f"   {cls:<15} {count}")
+    
+    print("\n⚠️  BY RISK LEVEL:")
+    for risk, count in report['summary']['by_risk'].items():
+        marker = "🔴" if risk == "CRITICAL" else "🟠" if risk == "HIGH" else "🟡" if risk == "MEDIUM" else "🟢"
+        print(f"   {marker} {risk:<10} {count}")
+    
+    print(f"\n📁 Report saved: {output_file}")
+    print("="*70)
+    
+    # Highlight critical findings
+    critical = [a for a in classified_assets if a['risk_level'] == 'CRITICAL']
+    if critical:
+        print("\n🚨 CRITICAL ASSETS:")
+        for asset in critical:
+            print(f"   {asset['hostname']:<25} ({asset['classification']})")
+
+if __name__ == "__main__":
+    main()

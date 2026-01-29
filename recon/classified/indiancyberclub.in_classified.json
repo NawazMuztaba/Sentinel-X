@@ -1,0 +1,26 @@
+{
+  "project": "Sentinel-X",
+  "module": "Asset Classification",
+  "target": "indiancyberclub.in",
+  "classified_at": "2026-01-29T06:35:06Z",
+  "summary": {
+    "CRITICAL": 0,
+    "HIGH": 0,
+    "MEDIUM": 0,
+    "LOW": 1
+  },
+  "assets": [
+    {
+      "asset": "www.indiancyberclub.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.46,
+      "hostname": "www.indiancyberclub.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-29T06:35:06Z"
+    }
+  ]
+}

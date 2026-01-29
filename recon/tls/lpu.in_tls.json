@@ -1,0 +1,484 @@
+{
+  "project": "Sentinel-X",
+  "module": "TLS Analyzer",
+  "target": "lpu.in",
+  "scanned_at": "2026-01-29T15:27:00.915745+00:00",
+  "summary": {
+    "total_assets": 17,
+    "by_risk": {
+      "LOW": 14,
+      "MEDIUM": 3,
+      "HIGH": 0,
+      "CRITICAL": 0
+    }
+  },
+  "assets": [
+    {
+      "hostname": "oms.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "DigiCert Inc",
+          "OU": "www.digicert.com",
+          "CN": "GeoTrust TLS RSA CA G1"
+        },
+        "subject": {
+          "C": "IN",
+          "ST": "Punjab",
+          "L": "Phagwara",
+          "O": "Lovely Professional University",
+          "CN": "*.lpu.in"
+        },
+        "expires_at": "2026-11-20T23:59:59+00:00",
+        "days_until_expiry": 295,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "happenings.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Google Trust Services",
+          "CN": "WE1"
+        },
+        "subject": {
+          "CN": "happenings.lpu.in"
+        },
+        "expires_at": "2026-03-12T03:42:49+00:00",
+        "days_until_expiry": 41,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "dev.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "DigiCert Inc",
+          "OU": "www.digicert.com",
+          "CN": "GeoTrust TLS RSA CA G1"
+        },
+        "subject": {
+          "C": "IN",
+          "ST": "Punjab",
+          "L": "Phagwara",
+          "O": "Lovely Professional University",
+          "CN": "*.lpu.in"
+        },
+        "expires_at": "2026-11-20T23:59:59+00:00",
+        "days_until_expiry": 295,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "www.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "DigiCert Inc",
+          "OU": "www.digicert.com",
+          "CN": "GeoTrust TLS RSA CA G1"
+        },
+        "subject": {
+          "C": "IN",
+          "ST": "Punjab",
+          "L": "Phagwara",
+          "O": "Lovely Professional University",
+          "CN": "*.lpu.in"
+        },
+        "expires_at": "2026-11-20T23:59:59+00:00",
+        "days_until_expiry": 295,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": false
+      },
+      "tls_score": 80,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "hostname": "intadmit.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "intadmit.lpu.in"
+        },
+        "expires_at": "2026-11-05T23:59:59+00:00",
+        "days_until_expiry": 280,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "admission.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M02"
+        },
+        "subject": {
+          "CN": "*.lpu.in"
+        },
+        "expires_at": "2026-07-11T23:59:59+00:00",
+        "days_until_expiry": 163,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "admissions.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "DigiCert Inc",
+          "OU": "www.digicert.com",
+          "CN": "GeoTrust TLS RSA CA G1"
+        },
+        "subject": {
+          "C": "IN",
+          "ST": "Punjab",
+          "L": "Phagwara",
+          "O": "Lovely Professional University",
+          "CN": "*.lpu.in"
+        },
+        "expires_at": "2026-11-20T23:59:59+00:00",
+        "days_until_expiry": 295,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "admit.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Google Trust Services",
+          "CN": "WE1"
+        },
+        "subject": {
+          "CN": "lpu.in"
+        },
+        "expires_at": "2026-03-22T11:46:40+00:00",
+        "days_until_expiry": 51,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": false
+      },
+      "tls_score": 80,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "hostname": "alumni.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Let's Encrypt",
+          "CN": "R12"
+        },
+        "subject": {
+          "CN": "alumni.lpu.in"
+        },
+        "expires_at": "2026-03-23T11:06:12+00:00",
+        "days_until_expiry": 52,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "survey.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Let's Encrypt",
+          "CN": "E7"
+        },
+        "subject": {
+          "CN": "survey.lpu.in"
+        },
+        "expires_at": "2026-03-02T17:57:40+00:00",
+        "days_until_expiry": 32,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "ums.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "DigiCert Inc",
+          "OU": "www.digicert.com",
+          "CN": "GeoTrust TLS RSA CA G1"
+        },
+        "subject": {
+          "C": "IN",
+          "ST": "Punjab",
+          "L": "Phagwara",
+          "O": "Lovely Professional University",
+          "CN": "*.lpu.in"
+        },
+        "expires_at": "2026-11-20T23:59:59+00:00",
+        "days_until_expiry": 295,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "oas.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "DigiCert Inc",
+          "OU": "www.digicert.com",
+          "CN": "GeoTrust TLS RSA CA G1"
+        },
+        "subject": {
+          "C": "IN",
+          "ST": "Punjab",
+          "L": "Phagwara",
+          "O": "Lovely Professional University",
+          "CN": "*.lpu.in"
+        },
+        "expires_at": "2026-11-20T23:59:59+00:00",
+        "days_until_expiry": 295,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "nest.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "DigiCert Inc",
+          "OU": "www.digicert.com",
+          "CN": "GeoTrust TLS RSA CA G1"
+        },
+        "subject": {
+          "C": "IN",
+          "ST": "Punjab",
+          "L": "Phagwara",
+          "O": "Lovely Professional University",
+          "CN": "*.lpu.in"
+        },
+        "expires_at": "2026-11-20T23:59:59+00:00",
+        "days_until_expiry": 295,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "myexam.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "DigiCert Inc",
+          "OU": "www.digicert.com",
+          "CN": "GeoTrust TLS RSA CA G1"
+        },
+        "subject": {
+          "C": "IN",
+          "ST": "Punjab",
+          "L": "Phagwara",
+          "O": "Lovely Professional University",
+          "CN": "*.lpu.in"
+        },
+        "expires_at": "2026-11-20T23:59:59+00:00",
+        "days_until_expiry": 295,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "myclass.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "DigiCert Inc",
+          "OU": "www.digicert.com",
+          "CN": "GeoTrust TLS RSA CA G1"
+        },
+        "subject": {
+          "C": "IN",
+          "ST": "Punjab",
+          "L": "Phagwara",
+          "O": "Lovely Professional University",
+          "CN": "*.lpu.in"
+        },
+        "expires_at": "2026-11-20T23:59:59+00:00",
+        "days_until_expiry": 295,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "www.alumni.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Let's Encrypt",
+          "CN": "R12"
+        },
+        "subject": {
+          "CN": "alumni.lpu.in"
+        },
+        "expires_at": "2026-03-23T11:06:12+00:00",
+        "days_until_expiry": 52,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "dashboards.lpu.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Google Trust Services",
+          "CN": "WE1"
+        },
+        "subject": {
+          "CN": "lpu.in"
+        },
+        "expires_at": "2026-03-22T11:46:40+00:00",
+        "days_until_expiry": 51,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": false
+      },
+      "tls_score": 80,
+      "risk_level": "MEDIUM"
+    }
+  ]
+}

@@ -1,0 +1,2857 @@
+{
+  "project": "Sentinel-X",
+  "module": "TLS Analyzer",
+  "target": "amazon.in",
+  "scanned_at": "2026-01-28T17:15:57.944022+00:00",
+  "summary": {
+    "total_assets": 115,
+    "by_risk": {
+      "LOW": 106,
+      "MEDIUM": 6,
+      "HIGH": 1,
+      "CRITICAL": 2
+    }
+  },
+  "assets": [
+    {
+      "hostname": "gstcentral.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M03"
+        },
+        "subject": {
+          "CN": "gstcentral.amazon.in"
+        },
+        "expires_at": "2026-04-19T23:59:59+00:00",
+        "days_until_expiry": 81,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "logistics.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "logistics.amazon.com"
+        },
+        "expires_at": "2026-12-26T23:59:59+00:00",
+        "days_until_expiry": 332,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "smbhav.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M03"
+        },
+        "subject": {
+          "CN": "smbhav.amazon.in"
+        },
+        "expires_at": "2026-04-17T23:59:59+00:00",
+        "days_until_expiry": 79,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "care.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "care.amazon.in"
+        },
+        "expires_at": "2026-05-03T23:59:59+00:00",
+        "days_until_expiry": 95,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "apx-security.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "apx-security.amazon.in"
+        },
+        "expires_at": "2026-09-13T23:59:59+00:00",
+        "days_until_expiry": 228,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "dl.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "dl.amazon.co.uk"
+        },
+        "expires_at": "2026-09-09T23:59:59+00:00",
+        "days_until_expiry": 224,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "dcp-rf1.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M02"
+        },
+        "subject": {
+          "CN": "dcp-rf1.amazon.eu"
+        },
+        "expires_at": "2026-09-03T23:59:59+00:00",
+        "days_until_expiry": 218,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "leadsmanager.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "leadsmanager.amazon.in"
+        },
+        "expires_at": "2026-09-09T23:59:59+00:00",
+        "days_until_expiry": 224,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "www.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "www.amazon.in"
+        },
+        "expires_at": "2027-01-17T23:59:59+00:00",
+        "days_until_expiry": 354,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "advertising.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "advertising-eu.amazon.com"
+        },
+        "expires_at": "2026-08-26T23:59:59+00:00",
+        "days_until_expiry": 210,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "aeswidgets.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M02"
+        },
+        "subject": {
+          "CN": "aeswidgets.amazon.in"
+        },
+        "expires_at": "2026-04-19T23:59:59+00:00",
+        "days_until_expiry": 81,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "smetrics.smartcommerce.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "DigiCert Inc",
+          "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+        },
+        "subject": {
+          "C": "US",
+          "ST": "California",
+          "L": "San Jose",
+          "O": "Adobe Systems Incorporated",
+          "CN": "smetrics.smartcommerce.amazon.in"
+        },
+        "expires_at": "2026-05-24T23:59:59+00:00",
+        "days_until_expiry": 116,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "youraccount.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "azn.in"
+        },
+        "expires_at": "2026-10-26T23:59:59+00:00",
+        "days_until_expiry": 271,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "www.business.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M03"
+        },
+        "subject": {
+          "CN": "www.business.amazon.co.uk"
+        },
+        "expires_at": "2026-10-03T23:59:59+00:00",
+        "days_until_expiry": 248,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "dcp.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M03"
+        },
+        "subject": {
+          "CN": "dcp.amazon.eu"
+        },
+        "expires_at": "2026-06-13T23:59:59+00:00",
+        "days_until_expiry": 136,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "help.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "azn.in"
+        },
+        "expires_at": "2026-10-26T23:59:59+00:00",
+        "days_until_expiry": 271,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "carriercentral.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "carriercentral.amazon.eu"
+        },
+        "expires_at": "2026-08-02T23:59:59+00:00",
+        "days_until_expiry": 186,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "seller-rewards.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "seller-rewards.amazon.in"
+        },
+        "expires_at": "2026-10-22T23:59:59+00:00",
+        "days_until_expiry": 267,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "smartbiz.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "smartbiz.amazon.in"
+        },
+        "expires_at": "2026-03-14T23:59:59+00:00",
+        "days_until_expiry": 45,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "billing-kep.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "pinnacle-container-dev.corp.amazon.com"
+        },
+        "expires_at": "2026-03-02T23:59:59+00:00",
+        "days_until_expiry": 33,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "pay.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M03"
+        },
+        "subject": {
+          "CN": "pay.amazon.in"
+        },
+        "expires_at": "2026-09-28T23:59:59+00:00",
+        "days_until_expiry": 243,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "music.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "music.amazon.in"
+        },
+        "expires_at": "2026-09-08T23:59:59+00:00",
+        "days_until_expiry": 223,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "payments.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "paywithamazon.amazon.in"
+        },
+        "expires_at": "2026-10-22T23:59:59+00:00",
+        "days_until_expiry": 267,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "kindlehelp.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "azn.in"
+        },
+        "expires_at": "2026-10-26T23:59:59+00:00",
+        "days_until_expiry": 271,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "alexa-skills-eu.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "alexa-skills.amazon.co.uk"
+        },
+        "expires_at": "2026-09-03T23:59:59+00:00",
+        "days_until_expiry": 218,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "account-p2k.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M03"
+        },
+        "subject": {
+          "CN": "account-p2k.amazon.com"
+        },
+        "expires_at": "2026-06-13T23:59:59+00:00",
+        "days_until_expiry": 136,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "amztrack.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M03"
+        },
+        "subject": {
+          "CN": "amztrack.amazon.in"
+        },
+        "expires_at": "2026-04-16T23:59:59+00:00",
+        "days_until_expiry": 78,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "amazonpay-sandbox.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M02"
+        },
+        "subject": {
+          "CN": "amazonpay-sandbox.amazon.in"
+        },
+        "expires_at": "2026-09-28T23:59:59+00:00",
+        "days_until_expiry": 243,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "drona.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "drona.amazon.in"
+        },
+        "expires_at": "2026-09-05T23:59:59+00:00",
+        "days_until_expiry": 220,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "Www.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "www.amazon.in"
+        },
+        "expires_at": "2027-01-17T23:59:59+00:00",
+        "days_until_expiry": 354,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "amazonpay-insurance.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "amazonpay-insurance.amazon.in"
+        },
+        "expires_at": "2026-08-31T23:59:59+00:00",
+        "days_until_expiry": 215,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "na-api-avs-idrs.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "avs-idrs.amazon.com"
+        },
+        "expires_at": "2026-06-12T23:59:59+00:00",
+        "days_until_expiry": 135,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "pi.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M03"
+        },
+        "subject": {
+          "CN": "pi.amazon.in"
+        },
+        "expires_at": "2026-04-19T23:59:59+00:00",
+        "days_until_expiry": 81,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "shipping.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "shipping.amazon.in"
+        },
+        "expires_at": "2026-08-15T23:59:59+00:00",
+        "days_until_expiry": 199,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "na-bob-dispatch-prod-alexa.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "bob-dispatch-prod-na.amazon.com"
+        },
+        "expires_at": "2026-08-07T23:59:59+00:00",
+        "days_until_expiry": 191,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": null
+      },
+      "tls_score": 80,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "hostname": "blueprints.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "blueprints-eu.amazon.com"
+        },
+        "expires_at": "2026-10-22T23:59:59+00:00",
+        "days_until_expiry": 267,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "www.ams.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "ams.amazon.in"
+        },
+        "expires_at": "2026-09-12T23:59:59+00:00",
+        "days_until_expiry": 227,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "alexa.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "DigiCert Inc",
+          "CN": "DigiCert Global CA G2"
+        },
+        "subject": {
+          "CN": "layla.amazon.com"
+        },
+        "expires_at": "2026-06-03T23:59:59+00:00",
+        "days_until_expiry": 126,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "account.kep.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "ramp.amazon.com"
+        },
+        "expires_at": "2026-08-26T23:59:59+00:00",
+        "days_until_expiry": 210,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "catalog-retail.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "gio-catalog-eu.amazon.com"
+        },
+        "expires_at": "2026-09-27T23:59:59+00:00",
+        "days_until_expiry": 242,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "payment-prod-test.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "payment-prod-test.amazon.in"
+        },
+        "expires_at": "2026-09-28T23:59:59+00:00",
+        "days_until_expiry": 243,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "auxilium-extern-preprod.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "auxilium-extern-preprod.amazon.in"
+        },
+        "expires_at": "2027-01-29T23:59:59+00:00",
+        "days_until_expiry": 366,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "alexa-skills-na.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "alexa-skills.amazon.com"
+        },
+        "expires_at": "2026-10-03T23:59:59+00:00",
+        "days_until_expiry": 248,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "faast.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "faast.amazon.in"
+        },
+        "expires_at": "2026-10-10T23:59:59+00:00",
+        "days_until_expiry": 255,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "flex.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "logistics.amazon.com"
+        },
+        "expires_at": "2026-12-14T23:59:59+00:00",
+        "days_until_expiry": 320,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "alexa-skills-beta-eu.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "alexa-skills-beta.amazon.co.uk"
+        },
+        "expires_at": "2026-10-07T23:59:59+00:00",
+        "days_until_expiry": 252,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "sellerflex.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "sellerflex.amazon.in"
+        },
+        "expires_at": "2026-12-01T23:59:59+00:00",
+        "days_until_expiry": 307,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "yourorders.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "azn.in"
+        },
+        "expires_at": "2026-10-26T23:59:59+00:00",
+        "days_until_expiry": 271,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "accelerator.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "accelerator.amazon.co.uk"
+        },
+        "expires_at": "2026-09-03T23:59:59+00:00",
+        "days_until_expiry": 218,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "dp-gw-na.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "DigiCert Inc",
+          "CN": "DigiCert Global CA G2"
+        },
+        "subject": {
+          "CN": "dp-gw-na.amazon.com"
+        },
+        "expires_at": "2026-06-11T23:59:59+00:00",
+        "days_until_expiry": 134,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": null
+      },
+      "tls_score": 80,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "hostname": "fe-api-avs-idrs.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "avs-idrs.amazon.com"
+        },
+        "expires_at": "2026-06-12T23:59:59+00:00",
+        "days_until_expiry": 135,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "track.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M03"
+        },
+        "subject": {
+          "CN": "track.amazon.in"
+        },
+        "expires_at": "2026-09-28T23:59:59+00:00",
+        "days_until_expiry": 243,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "payment.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M03"
+        },
+        "subject": {
+          "CN": "payment.amazon.in"
+        },
+        "expires_at": "2026-04-19T23:59:59+00:00",
+        "days_until_expiry": 81,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "eu-bob-dispatch-prod-alexa.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "bob-dispatch.prod.eu-south-2.gateway.devices.a2z.com"
+        },
+        "expires_at": "2026-10-15T23:59:59+00:00",
+        "days_until_expiry": 260,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": null
+      },
+      "tls_score": 80,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "hostname": "origin-logistics.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "logistics.amazon.in"
+        },
+        "expires_at": "2026-08-23T23:59:59+00:00",
+        "days_until_expiry": 207,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "kindledirectpublishing.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "tschavari.de"
+        },
+        "expires_at": "2026-08-28T23:59:59+00:00",
+        "days_until_expiry": 212,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "kindle-help.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "azn.in"
+        },
+        "expires_at": "2026-10-26T23:59:59+00:00",
+        "days_until_expiry": 271,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "your-orders.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "azn.in"
+        },
+        "expires_at": "2026-10-26T23:59:59+00:00",
+        "days_until_expiry": 271,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "origin-smartmerchant.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "origin-smartmerchant.amazon.in"
+        },
+        "expires_at": "2026-10-13T23:59:59+00:00",
+        "days_until_expiry": 258,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "business.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "business.amazon.in"
+        },
+        "expires_at": "2026-09-21T23:59:59+00:00",
+        "days_until_expiry": 236,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "advertisingconnect.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "advertisingconnect.amazon.in"
+        },
+        "expires_at": "2026-08-27T23:59:59+00:00",
+        "days_until_expiry": 211,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "account-status.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "account-status.amazon.co.uk"
+        },
+        "expires_at": "2026-09-10T23:59:59+00:00",
+        "days_until_expiry": 225,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "billing-p2k.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "pinnacle-container-dev.corp.amazon.com"
+        },
+        "expires_at": "2026-03-02T23:59:59+00:00",
+        "days_until_expiry": 33,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "luna.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "luna.amazon.eu"
+        },
+        "expires_at": "2026-08-20T23:59:59+00:00",
+        "days_until_expiry": 204,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "kdp.amazon.in",
+      "certificate": {
+        "valid": false,
+        "error": "_ssl.c:1016: The handshake operation timed out"
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 60,
+      "risk_level": "HIGH"
+    },
+    {
+      "hostname": "documents.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "documents.amazon.in"
+        },
+        "expires_at": "2026-08-17T23:59:59+00:00",
+        "days_until_expiry": 201,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "eu-south-2.music.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M02"
+        },
+        "subject": {
+          "CN": "eu-south-2.music.amazon.in"
+        },
+        "expires_at": "2026-07-19T23:59:59+00:00",
+        "days_until_expiry": 172,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "fe-bob-dispatch-gamma-alexa.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "bob-dispatch-gamma-fe.amazon.com"
+        },
+        "expires_at": "2026-08-10T23:59:59+00:00",
+        "days_until_expiry": 194,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": null
+      },
+      "tls_score": 80,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "hostname": "docs.amazonpay.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "docs.amazonpay.amazon.in"
+        },
+        "expires_at": "2026-03-01T23:59:59+00:00",
+        "days_until_expiry": 32,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "smartpos.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "smartpos.amazon.in"
+        },
+        "expires_at": "2027-02-05T23:59:59+00:00",
+        "days_until_expiry": 373,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "brandregistry.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M02"
+        },
+        "subject": {
+          "CN": "brandregistry.amazon.in"
+        },
+        "expires_at": "2026-09-28T23:59:59+00:00",
+        "days_until_expiry": 243,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "primefood-business.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M02"
+        },
+        "subject": {
+          "CN": "primefood-business.amazon.in"
+        },
+        "expires_at": "2026-04-19T23:59:59+00:00",
+        "days_until_expiry": 81,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "auxilium.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M03"
+        },
+        "subject": {
+          "CN": "auxilium.amazon.in"
+        },
+        "expires_at": "2026-04-19T23:59:59+00:00",
+        "days_until_expiry": 81,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "smart-pos.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M03"
+        },
+        "subject": {
+          "CN": "smart-pos.amazon.in"
+        },
+        "expires_at": "2026-09-28T23:59:59+00:00",
+        "days_until_expiry": 243,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "kindel.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "m.amazon.in"
+        },
+        "expires_at": "2026-10-16T23:59:59+00:00",
+        "days_until_expiry": 261,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "eu-bob-dispatch-gamma-alexa.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "bob-dispatch-gamma-eu.amazon.com"
+        },
+        "expires_at": "2026-09-21T23:59:59+00:00",
+        "days_until_expiry": 236,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": null
+      },
+      "tls_score": 80,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "hostname": "relay.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M03"
+        },
+        "subject": {
+          "CN": "relay.amazon.in"
+        },
+        "expires_at": "2026-04-19T23:59:59+00:00",
+        "days_until_expiry": 81,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "twitch.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M03"
+        },
+        "subject": {
+          "CN": "twitch.amazon.eu"
+        },
+        "expires_at": "2026-06-14T23:59:59+00:00",
+        "days_until_expiry": 137,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "lendercentral.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M02"
+        },
+        "subject": {
+          "CN": "lendercentral.amazon.in"
+        },
+        "expires_at": "2026-04-18T23:59:59+00:00",
+        "days_until_expiry": 80,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "www.advertising.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "advertising-eu.amazon.com"
+        },
+        "expires_at": "2026-08-26T23:59:59+00:00",
+        "days_until_expiry": 210,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "ams.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "ams.amazon.in"
+        },
+        "expires_at": "2026-09-12T23:59:59+00:00",
+        "days_until_expiry": 227,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "beta-sellerflex.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "onsite-eu.amazon.com"
+        },
+        "expires_at": "2026-10-22T23:59:59+00:00",
+        "days_until_expiry": 267,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "shippercentral-onebox.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M02"
+        },
+        "subject": {
+          "CN": "shippercentral-onebox.amazon.in"
+        },
+        "expires_at": "2026-04-19T23:59:59+00:00",
+        "days_until_expiry": 81,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "assistant.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "azn.in"
+        },
+        "expires_at": "2026-10-26T23:59:59+00:00",
+        "days_until_expiry": 271,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "read.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M02"
+        },
+        "subject": {
+          "CN": "read.amazon.in"
+        },
+        "expires_at": "2026-04-19T23:59:59+00:00",
+        "days_until_expiry": 81,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "kindle.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "m.amazon.in"
+        },
+        "expires_at": "2026-10-16T23:59:59+00:00",
+        "days_until_expiry": 261,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "auth-smartmerchant.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M03"
+        },
+        "subject": {
+          "CN": "auth-smartmerchant.amazon.in"
+        },
+        "expires_at": "2026-09-28T23:59:59+00:00",
+        "days_until_expiry": 243,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "smarthub.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "sellerflex.amazon.in"
+        },
+        "expires_at": "2026-12-01T23:59:59+00:00",
+        "days_until_expiry": 307,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "paywithamazon.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "paywithamazon.amazon.in"
+        },
+        "expires_at": "2026-10-22T23:59:59+00:00",
+        "days_until_expiry": 267,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "ship-freight.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "freight.amazon.co.uk"
+        },
+        "expires_at": "2026-09-11T23:59:59+00:00",
+        "days_until_expiry": 226,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "gaming.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "gaming.amazon.eu"
+        },
+        "expires_at": "2026-08-26T23:59:59+00:00",
+        "days_until_expiry": 210,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "dtp.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "tschavari.de"
+        },
+        "expires_at": "2026-08-28T23:59:59+00:00",
+        "days_until_expiry": 212,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "alexa-skills.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "alexa-skills.amazon.co.uk"
+        },
+        "expires_at": "2026-09-03T23:59:59+00:00",
+        "days_until_expiry": 218,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "aam.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "drona.amazon.in"
+        },
+        "expires_at": "2026-09-05T23:59:59+00:00",
+        "days_until_expiry": 220,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "alm.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "alm.amazon.in"
+        },
+        "expires_at": "2026-09-28T23:59:59+00:00",
+        "days_until_expiry": 243,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "ship.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M02"
+        },
+        "subject": {
+          "CN": "ship.amazon.in"
+        },
+        "expires_at": "2026-09-28T23:59:59+00:00",
+        "days_until_expiry": 243,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "parents.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "parents.amazon.in"
+        },
+        "expires_at": "2026-10-22T23:59:59+00:00",
+        "days_until_expiry": 267,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "datavault.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "datavault.amazon.com"
+        },
+        "expires_at": "2026-10-04T23:59:59+00:00",
+        "days_until_expiry": 249,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "spcentral.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "spcentral.amazon.com"
+        },
+        "expires_at": "2026-10-22T23:59:59+00:00",
+        "days_until_expiry": 267,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "your-account.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "azn.in"
+        },
+        "expires_at": "2026-10-26T23:59:59+00:00",
+        "days_until_expiry": 271,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "eu-api-avs-idrs.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "avs-idrs.amazon.com"
+        },
+        "expires_at": "2026-06-12T23:59:59+00:00",
+        "days_until_expiry": 135,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "avs-idrs.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "avs-idrs.amazon.com"
+        },
+        "expires_at": "2026-06-12T23:59:59+00:00",
+        "days_until_expiry": 135,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "fe-bob-dispatch-prod-alexa.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "bob-dispatch-prod-fe.amazon.com"
+        },
+        "expires_at": "2026-09-29T23:59:59+00:00",
+        "days_until_expiry": 244,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": null
+      },
+      "tls_score": 80,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "hostname": "affiliate-program.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M02"
+        },
+        "subject": {
+          "CN": "affiliate-program.amazon.in"
+        },
+        "expires_at": "2026-06-14T23:59:59+00:00",
+        "days_until_expiry": 137,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "api-amazondevices.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "api-amazondevices-eu.amazon.com"
+        },
+        "expires_at": "2026-09-15T23:59:59+00:00",
+        "days_until_expiry": 230,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "kumnira.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M02"
+        },
+        "subject": {
+          "CN": "kumnira.amazon.in"
+        },
+        "expires_at": "2026-04-19T23:59:59+00:00",
+        "days_until_expiry": 81,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "na-bob-dispatch-gamma-alexa.amazon.in",
+      "certificate": {
+        "valid": false,
+        "error": "_ssl.c:1016: The handshake operation timed out"
+      },
+      "https_enforcement": {
+        "http_redirect": null
+      },
+      "tls_score": 40,
+      "risk_level": "CRITICAL"
+    },
+    {
+      "hostname": "smetrics-smartcommerce.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "DigiCert Inc",
+          "CN": "DigiCert Global G2 TLS RSA SHA256 2020 CA1"
+        },
+        "subject": {
+          "C": "US",
+          "ST": "California",
+          "L": "San Jose",
+          "O": "Adobe Systems Incorporated",
+          "CN": "smetrics-smartcommerce.amazon.in"
+        },
+        "expires_at": "2026-07-18T23:59:59+00:00",
+        "days_until_expiry": 171,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "alexa-skills-fe.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "alexa-skills.amazon.com.au"
+        },
+        "expires_at": "2026-09-08T23:59:59+00:00",
+        "days_until_expiry": 223,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "orders.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "m.amazon.in"
+        },
+        "expires_at": "2026-10-16T23:59:59+00:00",
+        "days_until_expiry": 261,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "smartcommerce.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "smartcommerce.amazon.in"
+        },
+        "expires_at": "2026-08-19T23:59:59+00:00",
+        "days_until_expiry": 203,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "www.cdn.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "www.amazon.in"
+        },
+        "expires_at": "2027-01-17T23:59:59+00:00",
+        "days_until_expiry": 354,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "snowcentral.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M03"
+        },
+        "subject": {
+          "CN": "snowcentral-eu-opf.amazon.com"
+        },
+        "expires_at": "2026-04-11T23:59:59+00:00",
+        "days_until_expiry": 73,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "careers.amazon.in",
+      "certificate": {
+        "valid": false,
+        "error": "[Errno 104] Connection reset by peer"
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": false
+      },
+      "tls_score": 40,
+      "risk_level": "CRITICAL"
+    },
+    {
+      "hostname": "renewed.amazon.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "azn.in"
+        },
+        "expires_at": "2026-10-26T23:59:59+00:00",
+        "days_until_expiry": 271,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    }
+  ]
+}

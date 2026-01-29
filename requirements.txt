@@ -1,0 +1,6 @@
+aiohttp
+requests
+pyOpenSSL
+certifi
+jinja2
+rich

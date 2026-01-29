@@ -1,0 +1,174 @@
+{
+  "project": "Sentinel-X",
+  "module": "Asset Validation",
+  "target": "cuchd.in",
+  "summary": {
+    "LIVE": 16,
+    "RESTRICTED": 8,
+    "DEAD": 3
+  },
+  "assets": [
+    {
+      "asset": "lms.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.52
+    },
+    {
+      "asset": "cucet.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.6
+    },
+    {
+      "asset": "www.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.67
+    },
+    {
+      "asset": "careers.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.69
+    },
+    {
+      "asset": "culib.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.83
+    },
+    {
+      "asset": "bot.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.86
+    },
+    {
+      "asset": "delivery.mail3.cuchd.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.99
+    },
+    {
+      "asset": "news.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.0
+    },
+    {
+      "asset": "registration.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.06
+    },
+    {
+      "asset": "uims.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.37
+    },
+    {
+      "asset": "international.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.38
+    },
+    {
+      "asset": "admissions.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.83
+    },
+    {
+      "asset": "staff.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.41
+    },
+    {
+      "asset": "www.alumni.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.47
+    },
+    {
+      "asset": "students.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.49
+    },
+    {
+      "asset": "payments.cuchd.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.16
+    },
+    {
+      "asset": "blog.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.92
+    },
+    {
+      "asset": "alumni.cuchd.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.41
+    },
+    {
+      "asset": "studio.cuchd.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 5.03
+    },
+    {
+      "asset": "url.cuchd.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 5.03
+    },
+    {
+      "asset": "preview.cuchd.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 5.02
+    },
+    {
+      "asset": "ilearn.cuchd.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.15
+    },
+    {
+      "asset": "fasttrack.cuchd.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.23
+    },
+    {
+      "asset": "focus.cuchd.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.24
+    },
+    {
+      "asset": "focuslms.cuchd.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.56
+    },
+    {
+      "asset": "cuils.cuchd.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.99
+    },
+    {
+      "asset": "exam.cuchd.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.23
+    }
+  ]
+}

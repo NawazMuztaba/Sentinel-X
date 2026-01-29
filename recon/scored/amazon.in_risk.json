@@ -1,0 +1,17 @@
+{
+  "project": "Sentinel-X",
+  "module": "Risk Scoring",
+  "target": "amazon.in",
+  "scored_at": "2026-01-28T17:10:28Z",
+  "overall_risk": "MEDIUM",
+  "score": 38,
+  "breakdown": {
+    "CRITICAL": 0,
+    "HIGH": 64,
+    "MEDIUM": 3,
+    "LOW": 48
+  },
+  "key_reasons": [
+    "64 high-risk assets exposed"
+  ]
+}

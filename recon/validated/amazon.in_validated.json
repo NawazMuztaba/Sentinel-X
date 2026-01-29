@@ -1,0 +1,2670 @@
+{
+  "project": "Sentinel-X",
+  "module": "Asset Validation",
+  "target": "amazon.in",
+  "summary": {
+    "LIVE": 115,
+    "RESTRICTED": 170,
+    "DEAD": 158
+  },
+  "assets": [
+    {
+      "asset": "feed-browserapps.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.02
+    },
+    {
+      "asset": "fastly-www.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.02
+    },
+    {
+      "asset": "alx-inbound.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.02
+    },
+    {
+      "asset": "klite-services.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.02
+    },
+    {
+      "asset": "soap.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.02
+    },
+    {
+      "asset": "primefood-sfis-gamma.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.02
+    },
+    {
+      "asset": "ramptaxapi.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.01
+    },
+    {
+      "asset": "cmu-receiver-eu.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.02
+    },
+    {
+      "asset": "tp.26b28e904-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.51
+    },
+    {
+      "asset": "gstcentral.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.99
+    },
+    {
+      "asset": "logistics.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.58
+    },
+    {
+      "asset": "smbhav.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.58
+    },
+    {
+      "asset": "care.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.54
+    },
+    {
+      "asset": "apx-security.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.6
+    },
+    {
+      "asset": "cookie.browserapps.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.05
+    },
+    {
+      "asset": "crowdstrike.ausellercentralconfig.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.72
+    },
+    {
+      "asset": "hub.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.82
+    },
+    {
+      "asset": "dl.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.19
+    },
+    {
+      "asset": "dcp-rf1.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.18
+    },
+    {
+      "asset": "na-api-alexa.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.36
+    },
+    {
+      "asset": "leadsmanager.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.37
+    },
+    {
+      "asset": "guipitan.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.8
+    },
+    {
+      "asset": "banyan.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.73
+    },
+    {
+      "asset": "alexa-skills.corp.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.13
+    },
+    {
+      "asset": "www.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.7
+    },
+    {
+      "asset": "brandanalytics.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.12
+    },
+    {
+      "asset": "adobe.sellercentral.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "p-nt-www-amazon-in-kalias.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.73
+    },
+    {
+      "asset": "crowdstrike.auwww22config.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.4
+    },
+    {
+      "asset": "advertising.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 4.06
+    },
+    {
+      "asset": "lwa.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.72
+    },
+    {
+      "asset": "aeswidgets.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.89
+    },
+    {
+      "asset": "mail.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.07
+    },
+    {
+      "asset": "smetrics.smartcommerce.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.96
+    },
+    {
+      "asset": "pay.integ.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.07
+    },
+    {
+      "asset": "internal-campfire-eu.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.73
+    },
+    {
+      "asset": "youraccount.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.75
+    },
+    {
+      "asset": "www.business.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.87
+    },
+    {
+      "asset": "associates.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.03
+    },
+    {
+      "asset": "dcp.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.64
+    },
+    {
+      "asset": "help.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.35
+    },
+    {
+      "asset": "origin-completion.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 6.05
+    },
+    {
+      "asset": "crowdstrike.www.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.14
+    },
+    {
+      "asset": "gql-edge.music.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.28
+    },
+    {
+      "asset": "tp.c95e7e602-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.42
+    },
+    {
+      "asset": "carriercentral.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.01
+    },
+    {
+      "asset": "crowdstrike.aucdnconfig.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.13
+    },
+    {
+      "asset": "seller-rewards.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 4.05
+    },
+    {
+      "asset": "smartbiz.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.91
+    },
+    {
+      "asset": "webservices.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 4.57
+    },
+    {
+      "asset": "billing-kep.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.62
+    },
+    {
+      "asset": "pay.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 6.06
+    },
+    {
+      "asset": "sellercentral.cdn.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.54
+    },
+    {
+      "asset": "sellers.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.02
+    },
+    {
+      "asset": "eu-west-1.beta.proxy.live.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.02
+    },
+    {
+      "asset": "jeeready.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.01
+    },
+    {
+      "asset": "dossier.browserapps.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.07
+    },
+    {
+      "asset": "se-cde-ta-g7g.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "origin-www.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 4.25
+    },
+    {
+      "asset": "music.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.51
+    },
+    {
+      "asset": "origin-dl.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.07
+    },
+    {
+      "asset": "payments.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 5.83
+    },
+    {
+      "asset": "kindlehelp.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.32
+    },
+    {
+      "asset": "paywithamazon-sandbox.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 11.01
+    },
+    {
+      "asset": "sirius-soroco.ahs-in.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.24
+    },
+    {
+      "asset": "alexa-skills-eu.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.26
+    },
+    {
+      "asset": "pay-onboarding.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.13
+    },
+    {
+      "asset": "hfc-flightsprod.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.1
+    },
+    {
+      "asset": "logistics-extern-preprod.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.02
+    },
+    {
+      "asset": "amazonpayinsurance.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "account-p2k.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.84
+    },
+    {
+      "asset": "seller-central-pilot.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.08
+    },
+    {
+      "asset": "tp.806808d7b-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.35
+    },
+    {
+      "asset": "crowdstrike.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.33
+    },
+    {
+      "asset": "crowdstrike.weparentsisk.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.85
+    },
+    {
+      "asset": "msh-tablet.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.08
+    },
+    {
+      "asset": "7752cfcf.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.89
+    },
+    {
+      "asset": "aax-eu.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.37
+    },
+    {
+      "asset": "migration.business.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.08
+    },
+    {
+      "asset": "catalog-mapper-in.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.42
+    },
+    {
+      "asset": "skills-store-eu.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.28
+    },
+    {
+      "asset": "amztrack.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.69
+    },
+    {
+      "asset": "api.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.88
+    },
+    {
+      "asset": "hfc-prod.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.07
+    },
+    {
+      "asset": "alpha-smartmerchant.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.06
+    },
+    {
+      "asset": "omega-smartmerchant.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.05
+    },
+    {
+      "asset": "smartmerchant.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.49
+    },
+    {
+      "asset": "identity-browserapps.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.17
+    },
+    {
+      "asset": "crowdstrike.autocsmbhavfig.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.98
+    },
+    {
+      "asset": "amazonpay-sandbox.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.03
+    },
+    {
+      "asset": "dp-gw-preprod.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "www.logistics.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.04
+    },
+    {
+      "asset": "crowdstrike.brandservicesdisk.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.2
+    },
+    {
+      "asset": "adobe.sell.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.09
+    },
+    {
+      "asset": "kindlesupport.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.46
+    },
+    {
+      "asset": "amazonpay-test.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "horizonte.browserapps.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 4.69
+    },
+    {
+      "asset": "drona.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 4.23
+    },
+    {
+      "asset": "opf-sellercentral.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.31
+    },
+    {
+      "asset": "payatstore-partner.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.11
+    },
+    {
+      "asset": "test-primefood-business.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.19
+    },
+    {
+      "asset": "Www.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.41
+    },
+    {
+      "asset": "amazonpay-insurance.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 4.59
+    },
+    {
+      "asset": "sanakash-mons-poc-opf.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.05
+    },
+    {
+      "asset": "dcp-zaz.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.07
+    },
+    {
+      "asset": "track-sandbox.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 7.4
+    },
+    {
+      "asset": "how-crowdstrike-helps.autodispartnerver.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.35
+    },
+    {
+      "asset": "na-api-avs-idrs.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.07
+    },
+    {
+      "asset": "crowdstrike.autsupportonfig.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 5.74
+    },
+    {
+      "asset": "hfc-flights-prod.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.16
+    },
+    {
+      "asset": "pi.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.07
+    },
+    {
+      "asset": "tp.7106690f1-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.55
+    },
+    {
+      "asset": "uatpayatstorepartner.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.11
+    },
+    {
+      "asset": "shipping.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.7
+    },
+    {
+      "asset": "na-bob-dispatch-prod-alexa.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.23
+    },
+    {
+      "asset": "blueprints.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.63
+    },
+    {
+      "asset": "www.ams.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 7.51
+    },
+    {
+      "asset": "akamai-renew-cert-digicert.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.08
+    },
+    {
+      "asset": "care-provider.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "rf-completion.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.76
+    },
+    {
+      "asset": "connectcentral-gamma.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.11
+    },
+    {
+      "asset": "tp.35f9b2fd8-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.34
+    },
+    {
+      "asset": "offlinepay.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.75
+    },
+    {
+      "asset": "dev-business.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.03
+    },
+    {
+      "asset": "kep.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 4.59
+    },
+    {
+      "asset": "support.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 4.53
+    },
+    {
+      "asset": "test.payatstore.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.08
+    },
+    {
+      "asset": "tp.fd3c5e3ba-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.27
+    },
+    {
+      "asset": "tp.812cdbe56-frontier.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 16.93
+    },
+    {
+      "asset": "spncentral.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "alexa.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.55
+    },
+    {
+      "asset": "sellerflex-alt-zslgzmyb.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.07
+    },
+    {
+      "asset": "account.kep.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.88
+    },
+    {
+      "asset": "product.browserapps.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 5.07
+    },
+    {
+      "asset": "payatstore_partner.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.07
+    },
+    {
+      "asset": "merchants.offlinepay.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "crowdstrike.autodpaycover.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.4
+    },
+    {
+      "asset": "sockets.amazonpay.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 5.47
+    },
+    {
+      "asset": "dossier-browserapps.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.1
+    },
+    {
+      "asset": "ara.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.05
+    },
+    {
+      "asset": "alb-v2.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 18.82
+    },
+    {
+      "asset": "alexaskills.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": ".amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.0
+    },
+    {
+      "asset": "catalog-retail.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.5
+    },
+    {
+      "asset": "glimpse-feed.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.23
+    },
+    {
+      "asset": "aax-eu-zaz.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.82
+    },
+    {
+      "asset": "payment-prod-test.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.0
+    },
+    {
+      "asset": "msh.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.38
+    },
+    {
+      "asset": "crowdstrike.amscover.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 5.14
+    },
+    {
+      "asset": "origin-spcentral.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 4.37
+    },
+    {
+      "asset": "hfc-flights-beta.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.07
+    },
+    {
+      "asset": "eu-api-alexa.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.27
+    },
+    {
+      "asset": "payatstorepartner.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "auxilium-extern-preprod.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.82
+    },
+    {
+      "asset": "transportation.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.15
+    },
+    {
+      "asset": "parent.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.06
+    },
+    {
+      "asset": "tp.eba050a72-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.49
+    },
+    {
+      "asset": "gwapc.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.15
+    },
+    {
+      "asset": "mt.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.11
+    },
+    {
+      "asset": "personal-loans-ltfs-prod-encryption-key.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "crowdstrikevalueslottie.autohub.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.18
+    },
+    {
+      "asset": "ddee.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.07
+    },
+    {
+      "asset": "tp.5ef29552c-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.38
+    },
+    {
+      "asset": "data.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.0
+    },
+    {
+      "asset": "crowdstrike.autcustomerserviceonfig.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.71
+    },
+    {
+      "asset": "alexa-skills-na.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 7.01
+    },
+    {
+      "asset": "hfc-flightsbeta.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.12
+    },
+    {
+      "asset": "faast.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.26
+    },
+    {
+      "asset": "amazonpay.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.65
+    },
+    {
+      "asset": "wishlist.browserapps.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "crowdstrike.logisticstodiscover.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 5.35
+    },
+    {
+      "asset": "flex.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.73
+    },
+    {
+      "asset": "dpa-filer02.pironet-ndh.cow-na.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.12
+    },
+    {
+      "asset": "unagi-eu.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "api.eu-west-1.beta.proxy.live.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 15.69
+    },
+    {
+      "asset": "fls-eu-opf.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "alexa-skills-beta-eu.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.04
+    },
+    {
+      "asset": "origin-sellercentral.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 30.24
+    },
+    {
+      "asset": "sellerflex.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.17
+    },
+    {
+      "asset": "www.seller-rewards.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.08
+    },
+    {
+      "asset": "beta.gql.music.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 8.83
+    },
+    {
+      "asset": "jeeready-content.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.08
+    },
+    {
+      "asset": "blog.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 11.12
+    },
+    {
+      "asset": "yourorders.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.57
+    },
+    {
+      "asset": "freight.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.16
+    },
+    {
+      "asset": "crowdstrike.autodisbrandservicesver.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.04
+    },
+    {
+      "asset": "accelerator.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.01
+    },
+    {
+      "asset": "alexa-comms-mobile-service.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.64
+    },
+    {
+      "asset": "dp-gw-na.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.02
+    },
+    {
+      "asset": "tp.deb88e61d-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.77
+    },
+    {
+      "asset": "eu-west-1.gamma.proxy.live.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.81
+    },
+    {
+      "asset": "shm.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.88
+    },
+    {
+      "asset": "api.eu-west-1.prod.proxy.live.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 9.93
+    },
+    {
+      "asset": "fe-api-avs-idrs.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.14
+    },
+    {
+      "asset": "arap.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.07
+    },
+    {
+      "asset": "advantage.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.08
+    },
+    {
+      "asset": "xml.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "argileto.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 20.23
+    },
+    {
+      "asset": "tp.ba0d17e34-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.81
+    },
+    {
+      "asset": "track.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.26
+    },
+    {
+      "asset": "payment.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.98
+    },
+    {
+      "asset": "ablistswidgethorizonte.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.09
+    },
+    {
+      "asset": "osc-test.pay.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "personal-loans-axis-prod-signature-key.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.05
+    },
+    {
+      "asset": "eu-bob-dispatch-prod-alexa.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.42
+    },
+    {
+      "asset": "tp.4301f2b38-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.38
+    },
+    {
+      "asset": "sadobe.sell.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 6.76
+    },
+    {
+      "asset": "sadobe.sellercentral.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 7.46
+    },
+    {
+      "asset": "origin-logistics.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.16
+    },
+    {
+      "asset": "content-drive.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.05
+    },
+    {
+      "asset": "origin-amazonpay.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 4.43
+    },
+    {
+      "asset": "origin-music.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.7
+    },
+    {
+      "asset": "crowdstrike.autosmbhav.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.35
+    },
+    {
+      "asset": "kindledirectpublishing.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.71
+    },
+    {
+      "asset": "kindle-help.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.42
+    },
+    {
+      "asset": "glowroad-auth.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 9.51
+    },
+    {
+      "asset": "arcus-www.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.8
+    },
+    {
+      "asset": "crowdstrike.autocunagifig.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.72
+    },
+    {
+      "asset": "transient.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.11
+    },
+    {
+      "asset": "genie.amazonpay.amazon.in.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.08
+    },
+    {
+      "asset": "www.pi.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.07
+    },
+    {
+      "asset": "test-pdp.pay.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.09
+    },
+    {
+      "asset": "sellercentral.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.64
+    },
+    {
+      "asset": "puptrack-eu.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.87
+    },
+    {
+      "asset": "gql.music.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 5.86
+    },
+    {
+      "asset": "your-orders.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.52
+    },
+    {
+      "asset": "socket.amazonpay.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.27
+    },
+    {
+      "asset": "origin-smartmerchant.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.53
+    },
+    {
+      "asset": "www16.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.19
+    },
+    {
+      "asset": "business.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.34
+    },
+    {
+      "asset": "paynow.uat-pod.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.26
+    },
+    {
+      "asset": "advertisingconnect.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.25
+    },
+    {
+      "asset": "account-status.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.54
+    },
+    {
+      "asset": "kep-eu.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 7.88
+    },
+    {
+      "asset": "al-eu-apiproxy.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.49
+    },
+    {
+      "asset": "beta.buywithamazon.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.3
+    },
+    {
+      "asset": "fls-gamma-eu.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.07
+    },
+    {
+      "asset": "origin-academy.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 4.01
+    },
+    {
+      "asset": "kindle-guru.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 11.86
+    },
+    {
+      "asset": "billing-p2k.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.89
+    },
+    {
+      "asset": "glimpse-publish.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.21
+    },
+    {
+      "asset": "luna.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.82
+    },
+    {
+      "asset": "elinks.business.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.65
+    },
+    {
+      "asset": "kdp.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.83
+    },
+    {
+      "asset": "www.services.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 11.36
+    },
+    {
+      "asset": "documents.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.97
+    },
+    {
+      "asset": "10312029134.network.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.14
+    },
+    {
+      "asset": "aan.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.93
+    },
+    {
+      "asset": "sophap.beta.gql.music.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.23
+    },
+    {
+      "asset": "services.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 11.18
+    },
+    {
+      "asset": "aba.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.13
+    },
+    {
+      "asset": "brandservices.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 11.18
+    },
+    {
+      "asset": "irctc.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 11.25
+    },
+    {
+      "asset": "tp.e4bd4c714-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.81
+    },
+    {
+      "asset": "gamma.buywithamazon.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 7.14
+    },
+    {
+      "asset": "7c52cf103-frontier.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.09
+    },
+    {
+      "asset": "kyc.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.11
+    },
+    {
+      "asset": "eu-south-2.music.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.89
+    },
+    {
+      "asset": "sellerflex-alt-zslgzmy.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 5.14
+    },
+    {
+      "asset": "lb.eu-west-1.beta.proxy.live.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 22.69
+    },
+    {
+      "asset": "fe-bob-dispatch-gamma-alexa.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.05
+    },
+    {
+      "asset": "customer-service.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 4.74
+    },
+    {
+      "asset": "customerservice.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 5.56
+    },
+    {
+      "asset": "sirius-soroco-ahs.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "crowdstrike.autyouraccountonfig.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.91
+    },
+    {
+      "asset": "fe-api-alexa.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.93
+    },
+    {
+      "asset": "kindle-store-proxy-endpoint.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 7.33
+    },
+    {
+      "asset": "hfc-devo.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.05
+    },
+    {
+      "asset": "docs.amazonpay.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.13
+    },
+    {
+      "asset": "smartpos.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.53
+    },
+    {
+      "asset": "p-y3-www-amazon-in-kalias.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 4.74
+    },
+    {
+      "asset": "cde-ta-g7g-preprod.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 7.08
+    },
+    {
+      "asset": "brandregistry.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 7.52
+    },
+    {
+      "asset": "hfc-ext-prod.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 11.0
+    },
+    {
+      "asset": "stage-business.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.17
+    },
+    {
+      "asset": "tp.e560af0d0-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.91
+    },
+    {
+      "asset": "crowdstrike.flextodiscover.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.95
+    },
+    {
+      "asset": "primefood-business.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.26
+    },
+    {
+      "asset": "tp.991aed0e8-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.12
+    },
+    {
+      "asset": "crowdstrike.autocflexfig.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.8
+    },
+    {
+      "asset": "fls-eu.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 4.37
+    },
+    {
+      "asset": "auxilium.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.26
+    },
+    {
+      "asset": "personal-loans-ltfs-beta-signature-key.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.15
+    },
+    {
+      "asset": "crowdstrike.apayodiscover.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.78
+    },
+    {
+      "asset": "feed.browserapps.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.18
+    },
+    {
+      "asset": "dropship.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 5.85
+    },
+    {
+      "asset": "digprjsurvey.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.85
+    },
+    {
+      "asset": "m.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.97
+    },
+    {
+      "asset": "storedashboard.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 12.33
+    },
+    {
+      "asset": "smart-pos.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.05
+    },
+    {
+      "asset": "kindel.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.76
+    },
+    {
+      "asset": "paynow.pod.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.07
+    },
+    {
+      "asset": "sha256.webservices.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.83
+    },
+    {
+      "asset": "alexa-skills-beta-na.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.65
+    },
+    {
+      "asset": "eu-bob-dispatch-gamma-alexa.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.25
+    },
+    {
+      "asset": "relay.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.18
+    },
+    {
+      "asset": "alexa-comms-mobile-service-gamma.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 5.83
+    },
+    {
+      "asset": "test-www.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.07
+    },
+    {
+      "asset": "twitch.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 7.76
+    },
+    {
+      "asset": "lendercentral.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.63
+    },
+    {
+      "asset": "www.advertising.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 5.54
+    },
+    {
+      "asset": "ams.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 5.13
+    },
+    {
+      "asset": "hfc-cygnus-beta-in.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.16
+    },
+    {
+      "asset": "beta-sellerflex.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 4.1
+    },
+    {
+      "asset": "sdu.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.19
+    },
+    {
+      "asset": "shippercentral-onebox.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.81
+    },
+    {
+      "asset": "asmw.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 6.03
+    },
+    {
+      "asset": "assistant.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.59
+    },
+    {
+      "asset": "skills-store-fe.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.24
+    },
+    {
+      "asset": "read.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.7
+    },
+    {
+      "asset": "kindle.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.6
+    },
+    {
+      "asset": "connectcentral.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.91
+    },
+    {
+      "asset": "sellerflex.amazon.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.09
+    },
+    {
+      "asset": "tp.cbc0dfae1-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.06
+    },
+    {
+      "asset": "auth-smartmerchant.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.57
+    },
+    {
+      "asset": "test.lwa.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.08
+    },
+    {
+      "asset": "cde-ta-g7g.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 7.38
+    },
+    {
+      "asset": "hfc-beta.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "sell.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 7.77
+    },
+    {
+      "asset": "kindlestore-sha-proxy.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 11.45
+    },
+    {
+      "asset": "skills-store.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.81
+    },
+    {
+      "asset": "jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.62
+    },
+    {
+      "asset": "smarthub.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.64
+    },
+    {
+      "asset": "paywithamazon.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.82
+    },
+    {
+      "asset": "devo.lwa.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "care-api.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.4
+    },
+    {
+      "asset": "reporter-browserapps.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.08
+    },
+    {
+      "asset": "vcs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.84
+    },
+    {
+      "asset": "alexa-smart-nudge.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.42
+    },
+    {
+      "asset": "p-yo-www-amazon-in-kalias.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 5.17
+    },
+    {
+      "asset": "ship-freight.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.81
+    },
+    {
+      "asset": "identity.browserapps.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "test.pay.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "catalog-sc.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 5.85
+    },
+    {
+      "asset": "tp.7c52cf103-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.0
+    },
+    {
+      "asset": "www22.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.42
+    },
+    {
+      "asset": "reinstate.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.19
+    },
+    {
+      "asset": "subscription.denali.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "swiship.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.15
+    },
+    {
+      "asset": "abintegrations.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.85
+    },
+    {
+      "asset": "care-pfs.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.08
+    },
+    {
+      "asset": "tp.7db87a427-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.73
+    },
+    {
+      "asset": "mobile-identity.browserapps.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.05
+    },
+    {
+      "asset": "supplychainconnect.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.07
+    },
+    {
+      "asset": "terrier.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.84
+    },
+    {
+      "asset": "gaming.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 6.4
+    },
+    {
+      "asset": "dtp.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.18
+    },
+    {
+      "asset": "lb.eu-west-1.gamma.proxy.live.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 22.67
+    },
+    {
+      "asset": "skills-store-na.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.43
+    },
+    {
+      "asset": "vendorcentral.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.19
+    },
+    {
+      "asset": "email.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.16
+    },
+    {
+      "asset": "personal-loans-ltfs-beta-encryption-key.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "payments-onboarding.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.05
+    },
+    {
+      "asset": "seller-tools.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.07
+    },
+    {
+      "asset": "academy.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "alexa-skills.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.24
+    },
+    {
+      "asset": "crowdstrike.aucarediscover.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.13
+    },
+    {
+      "asset": "www.partner.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.37
+    },
+    {
+      "asset": "partner.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.93
+    },
+    {
+      "asset": "storage-browserapps.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.1
+    },
+    {
+      "asset": "payatstore.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.11
+    },
+    {
+      "asset": "frontier-dev.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.11
+    },
+    {
+      "asset": "updates.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.07
+    },
+    {
+      "asset": "hfc-movies-prod.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.94
+    },
+    {
+      "asset": "alb.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 2.53
+    },
+    {
+      "asset": "aam.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.42
+    },
+    {
+      "asset": "seller.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.07
+    },
+    {
+      "asset": "pdp.pay.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.07
+    },
+    {
+      "asset": "alm.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 6.07
+    },
+    {
+      "asset": "a9g-api.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 5.31
+    },
+    {
+      "asset": "pinnacle-api.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 4.48
+    },
+    {
+      "asset": "www17.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.37
+    },
+    {
+      "asset": "buywithamazon.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.87
+    },
+    {
+      "asset": "ddee-preprod.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.05
+    },
+    {
+      "asset": "care-mkuppire.corp.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.11
+    },
+    {
+      "asset": "alexaskills.corp.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.05
+    },
+    {
+      "asset": "creditagents.amazonpay.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 16.19
+    },
+    {
+      "asset": "amazon-now.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.07
+    },
+    {
+      "asset": "opf-www.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.23
+    },
+    {
+      "asset": "crowdstrike.autodcustomerservicecover.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.44
+    },
+    {
+      "asset": "ship.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.51
+    },
+    {
+      "asset": "parents.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.79
+    },
+    {
+      "asset": "datavault.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.42
+    },
+    {
+      "asset": "alexa-skills-beta-fe.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.77
+    },
+    {
+      "asset": "iss-widgets.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.11
+    },
+    {
+      "asset": "payatstoreuat.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.45
+    },
+    {
+      "asset": "spcentral.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.4
+    },
+    {
+      "asset": "your-account.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.29
+    },
+    {
+      "asset": "atv-ps-eu.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.86
+    },
+    {
+      "asset": "eu-west-1.prod.proxy.live.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.09
+    },
+    {
+      "asset": "sales-edge.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 11.77
+    },
+    {
+      "asset": "crowdstrike.customer-servicebdisk.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.27
+    },
+    {
+      "asset": "udaan-associate-service.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.91
+    },
+    {
+      "asset": "unagi.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 3.66
+    },
+    {
+      "asset": "lb.eu-west-1.prod.proxy.live.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 32.67
+    },
+    {
+      "asset": "eu-api-avs-idrs.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.38
+    },
+    {
+      "asset": "primefood-sfis.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.1
+    },
+    {
+      "asset": "avs-idrs.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.02
+    },
+    {
+      "asset": "fe-bob-dispatch-prod-alexa.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.6
+    },
+    {
+      "asset": "affiliate-program.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.65
+    },
+    {
+      "asset": "ship.freight.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.15
+    },
+    {
+      "asset": "api-amazondevices.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.45
+    },
+    {
+      "asset": "appx.transient.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 4.52
+    },
+    {
+      "asset": "origin-supplychainconnect.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.19
+    },
+    {
+      "asset": "kumnira.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.75
+    },
+    {
+      "asset": "payment.integ.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.05
+    },
+    {
+      "asset": "reporter.browserapps.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.06
+    },
+    {
+      "asset": "na-bob-dispatch-gamma-alexa.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.51
+    },
+    {
+      "asset": "smetrics-smartcommerce.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.65
+    },
+    {
+      "asset": "smetrics.flex.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.35
+    },
+    {
+      "asset": "data-exchange.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.09
+    },
+    {
+      "asset": "alexa-skills-beta.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.53
+    },
+    {
+      "asset": "alexa-skills-fe.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.18
+    },
+    {
+      "asset": "origin-eusouth2-www.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 4.89
+    },
+    {
+      "asset": "storage.browserapps.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.14
+    },
+    {
+      "asset": "personal-loans-axis-prod-encryption-key.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.11
+    },
+    {
+      "asset": "orders.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.4
+    },
+    {
+      "asset": "ssofaast.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 5.18
+    },
+    {
+      "asset": "sadobe.services.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 7.99
+    },
+    {
+      "asset": "completion.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.67
+    },
+    {
+      "asset": "selection.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 7.31
+    },
+    {
+      "asset": "osc.pay.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.1
+    },
+    {
+      "asset": "www14.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.09
+    },
+    {
+      "asset": "personal-loans-ltfs-prod-signature-key.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.05
+    },
+    {
+      "asset": "aps.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.28
+    },
+    {
+      "asset": "browserapps.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.05
+    },
+    {
+      "asset": "crowdstrike.autobrandservicesnfig.jobs.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.62
+    },
+    {
+      "asset": "smartcommerce.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.65
+    },
+    {
+      "asset": "www.cdn.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.68
+    },
+    {
+      "asset": "freetime.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.08
+    },
+    {
+      "asset": "edgeflow-dp.aero.c95e7e602-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 43.24
+    },
+    {
+      "asset": "author.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.07
+    },
+    {
+      "asset": "store-login.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.82
+    },
+    {
+      "asset": "edgeflow.aero.c95e7e602-frontier.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 41.78
+    },
+    {
+      "asset": "snowcentral.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 4.89
+    },
+    {
+      "asset": "careers.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 5.6
+    },
+    {
+      "asset": "renewed.amazon.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 5.72
+    },
+    {
+      "asset": "cdn.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 10.87
+    },
+    {
+      "asset": "widgets.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.22
+    },
+    {
+      "asset": "store.amazon.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 11.64
+    },
+    {
+      "asset": "api.eu-west-1.gamma.proxy.live.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 18.63
+    },
+    {
+      "asset": "www.store.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 23.29
+    },
+    {
+      "asset": "thumbnails-photos.amazon.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 42.87
+    }
+  ]
+}

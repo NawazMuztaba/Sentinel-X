@@ -1,0 +1,254 @@
+{
+  "project": "Sentinel-X",
+  "module": "Asset Classification",
+  "target": "lpu.in",
+  "classified_at": "2026-01-29T15:26:49Z",
+  "summary": {
+    "CRITICAL": 0,
+    "HIGH": 13,
+    "MEDIUM": 0,
+    "LOW": 4
+  },
+  "assets": [
+    {
+      "asset": "oms.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.47,
+      "hostname": "oms.lpu.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login"
+      ],
+      "classified_at": "2026-01-29T15:26:33Z"
+    },
+    {
+      "asset": "happenings.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.48,
+      "hostname": "happenings.lpu.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/admin",
+        "content:/login"
+      ],
+      "classified_at": "2026-01-29T15:26:34Z"
+    },
+    {
+      "asset": "dev.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.57,
+      "hostname": "dev.lpu.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "hostname:dev",
+        "content:/backend",
+        "content:/login"
+      ],
+      "classified_at": "2026-01-29T15:26:34Z"
+    },
+    {
+      "asset": "www.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.64,
+      "hostname": "www.lpu.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/backend",
+        "content:/login",
+        "content:/api/"
+      ],
+      "classified_at": "2026-01-29T15:26:35Z"
+    },
+    {
+      "asset": "intadmit.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.67,
+      "hostname": "intadmit.lpu.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login"
+      ],
+      "classified_at": "2026-01-29T15:26:36Z"
+    },
+    {
+      "asset": "admission.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.69,
+      "hostname": "admission.lpu.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login"
+      ],
+      "classified_at": "2026-01-29T15:26:36Z"
+    },
+    {
+      "asset": "admissions.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.87,
+      "hostname": "admissions.lpu.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login"
+      ],
+      "classified_at": "2026-01-29T15:26:37Z"
+    },
+    {
+      "asset": "admit.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.98,
+      "hostname": "admit.lpu.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login"
+      ],
+      "classified_at": "2026-01-29T15:26:38Z"
+    },
+    {
+      "asset": "alumni.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.38,
+      "hostname": "alumni.lpu.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login",
+        "content:/api/"
+      ],
+      "classified_at": "2026-01-29T15:26:39Z"
+    },
+    {
+      "asset": "survey.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.46,
+      "hostname": "survey.lpu.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-29T15:26:41Z"
+    },
+    {
+      "asset": "ums.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.38,
+      "hostname": "ums.lpu.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-29T15:26:41Z"
+    },
+    {
+      "asset": "oas.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.3,
+      "hostname": "oas.lpu.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-29T15:26:42Z"
+    },
+    {
+      "asset": "nest.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.91,
+      "hostname": "nest.lpu.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/backend",
+        "content:/login",
+        "content:/api/"
+      ],
+      "classified_at": "2026-01-29T15:26:43Z"
+    },
+    {
+      "asset": "myexam.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.46,
+      "hostname": "myexam.lpu.in",
+      "classification": "STATIC_SITE",
+      "risk_level": "LOW",
+      "confidence": 0.5,
+      "evidence": [],
+      "classified_at": "2026-01-29T15:26:45Z"
+    },
+    {
+      "asset": "myclass.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.31,
+      "hostname": "myclass.lpu.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login"
+      ],
+      "classified_at": "2026-01-29T15:26:47Z"
+    },
+    {
+      "asset": "www.alumni.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.85,
+      "hostname": "www.alumni.lpu.in",
+      "classification": "API_ENDPOINT",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "content:/login",
+        "content:/api/"
+      ],
+      "classified_at": "2026-01-29T15:26:48Z"
+    },
+    {
+      "asset": "dashboards.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.84,
+      "hostname": "dashboards.lpu.in",
+      "classification": "LOGIN_PORTAL",
+      "risk_level": "HIGH",
+      "confidence": 0.95,
+      "evidence": [
+        "hostname:dashboard",
+        "content:/login"
+      ],
+      "classified_at": "2026-01-29T15:26:49Z"
+    }
+  ]
+}

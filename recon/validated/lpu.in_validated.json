@@ -1,0 +1,222 @@
+{
+  "project": "Sentinel-X",
+  "module": "Asset Validation",
+  "target": "lpu.in",
+  "summary": {
+    "LIVE": 17,
+    "RESTRICTED": 6,
+    "DEAD": 12
+  },
+  "assets": [
+    {
+      "asset": "oms.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.47
+    },
+    {
+      "asset": "happenings.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.48
+    },
+    {
+      "asset": "dev.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.57
+    },
+    {
+      "asset": "www.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.64
+    },
+    {
+      "asset": "intadmit.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.67
+    },
+    {
+      "asset": "admission.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.69
+    },
+    {
+      "asset": "admissions.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.87
+    },
+    {
+      "asset": "admit.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.98
+    },
+    {
+      "asset": "techsprint.lpu.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.21
+    },
+    {
+      "asset": "alumni.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.38
+    },
+    {
+      "asset": "survey.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.46
+    },
+    {
+      "asset": "ums.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.38
+    },
+    {
+      "asset": "oas.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.3
+    },
+    {
+      "asset": "sms.lpu.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 0.63
+    },
+    {
+      "asset": "nest.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.91
+    },
+    {
+      "asset": "kalvi.lpu.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 1.44
+    },
+    {
+      "asset": "myexam.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 1.46
+    },
+    {
+      "asset": "gifcdn.lpu.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 0.02
+    },
+    {
+      "asset": "myclass.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.31
+    },
+    {
+      "asset": "www.alumni.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 0.85
+    },
+    {
+      "asset": "dashboards.lpu.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 2.84
+    },
+    {
+      "asset": "www.internet.lpu.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 5.01
+    },
+    {
+      "asset": "www.happenings.lpu.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 5.02
+    },
+    {
+      "asset": "ap1.lpu.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 5.02
+    },
+    {
+      "asset": "blog.lpu.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 5.02
+    },
+    {
+      "asset": "youthvibe.lpu.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 5.02
+    },
+    {
+      "asset": "ap4.lpu.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 5.02
+    },
+    {
+      "asset": "ap3.lpu.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 5.02
+    },
+    {
+      "asset": "ap2.lpu.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 5.02
+    },
+    {
+      "asset": "photos.lpu.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 5.03
+    },
+    {
+      "asset": "ap5.lpu.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 5.02
+    },
+    {
+      "asset": "placementnetwork.lpu.in",
+      "status": "DEAD",
+      "reason": "DNS failed",
+      "response_time": 5.01
+    },
+    {
+      "asset": "dspace.lpu.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.04
+    },
+    {
+      "asset": "internet.lpu.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.11
+    },
+    {
+      "asset": "ezproxy.lpu.in",
+      "status": "RESTRICTED",
+      "reason": "DNS OK, HTTP blocked",
+      "response_time": 10.34
+    }
+  ]
+}

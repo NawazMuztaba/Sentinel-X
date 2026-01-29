@@ -1,0 +1,42 @@
+{
+  "project": "Sentinel-X",
+  "module": "TLS Analyzer",
+  "target": "indiancyberclub.in",
+  "scanned_at": "2026-01-29T06:35:07.859400+00:00",
+  "summary": {
+    "total_assets": 1,
+    "by_risk": {
+      "LOW": 1,
+      "MEDIUM": 0,
+      "HIGH": 0,
+      "CRITICAL": 0
+    }
+  },
+  "assets": [
+    {
+      "hostname": "www.indiancyberclub.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Google Trust Services",
+          "CN": "WE1"
+        },
+        "subject": {
+          "CN": "indiancyberclub.in"
+        },
+        "expires_at": "2026-04-08T08:10:50+00:00",
+        "days_until_expiry": 69,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    }
+  ]
+}

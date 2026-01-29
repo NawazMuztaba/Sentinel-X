@@ -1,0 +1,420 @@
+{
+  "project": "Sentinel-X",
+  "module": "TLS Analyzer",
+  "target": "cuchd.in",
+  "scanned_at": "2026-01-29T06:39:16.392981+00:00",
+  "summary": {
+    "total_assets": 16,
+    "by_risk": {
+      "LOW": 9,
+      "MEDIUM": 6,
+      "HIGH": 0,
+      "CRITICAL": 1
+    }
+  },
+  "assets": [
+    {
+      "hostname": "lms.cuchd.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Let's Encrypt",
+          "CN": "R12"
+        },
+        "subject": {
+          "CN": "lms.cuchd.in"
+        },
+        "expires_at": "2026-04-03T16:21:12+00:00",
+        "days_until_expiry": 64,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "cucet.cuchd.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "ST": "Arizona",
+          "L": "Scottsdale",
+          "O": "GoDaddy.com, Inc.",
+          "OU": "http://certs.godaddy.com/repository/",
+          "CN": "Go Daddy Secure Certificate Authority - G2"
+        },
+        "subject": {
+          "CN": "*.cuchd.in"
+        },
+        "expires_at": "2027-01-29T15:36:56+00:00",
+        "days_until_expiry": 365,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "www.cuchd.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "ST": "Arizona",
+          "L": "Scottsdale",
+          "O": "GoDaddy.com, Inc.",
+          "OU": "http://certs.godaddy.com/repository/",
+          "CN": "Go Daddy Secure Certificate Authority - G2"
+        },
+        "subject": {
+          "CN": "*.cuchd.in"
+        },
+        "expires_at": "2027-01-29T15:36:56+00:00",
+        "days_until_expiry": 365,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "careers.cuchd.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "BE",
+          "O": "GlobalSign nv-sa",
+          "CN": "GlobalSign RSA OV SSL CA 2018"
+        },
+        "subject": {
+          "C": "IN",
+          "ST": "Uttar Pradesh",
+          "L": "Noida",
+          "O": "INFO EDGE (INDIA) LIMITED",
+          "CN": "www.zwayam.com"
+        },
+        "expires_at": "2026-03-31T18:29:59+00:00",
+        "days_until_expiry": 61,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": null
+      },
+      "tls_score": 80,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "hostname": "culib.cuchd.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M04"
+        },
+        "subject": {
+          "CN": "cuchd.in"
+        },
+        "expires_at": "2026-12-13T23:59:59+00:00",
+        "days_until_expiry": 318,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": false
+      },
+      "tls_score": 80,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "hostname": "bot.cuchd.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Let's Encrypt",
+          "CN": "E8"
+        },
+        "subject": {
+          "CN": "bot.cuchd.in"
+        },
+        "expires_at": "2026-04-16T05:50:52+00:00",
+        "days_until_expiry": 76,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "news.cuchd.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Google Trust Services",
+          "CN": "WR3"
+        },
+        "subject": {
+          "CN": "news.cuchd.in"
+        },
+        "expires_at": "2026-04-11T06:25:28+00:00",
+        "days_until_expiry": 71,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "registration.cuchd.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "ST": "Arizona",
+          "L": "Scottsdale",
+          "O": "GoDaddy.com, Inc.",
+          "OU": "http://certs.godaddy.com/repository/",
+          "CN": "Go Daddy Secure Certificate Authority - G2"
+        },
+        "subject": {
+          "CN": "*.cuchd.in"
+        },
+        "expires_at": "2027-01-29T15:36:56+00:00",
+        "days_until_expiry": 365,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": null
+      },
+      "tls_score": 80,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "hostname": "uims.cuchd.in",
+      "certificate": {
+        "valid": false,
+        "error": "[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1033)"
+      },
+      "https_enforcement": {
+        "http_redirect": false
+      },
+      "tls_score": 40,
+      "risk_level": "CRITICAL"
+    },
+    {
+      "hostname": "international.cuchd.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Amazon",
+          "CN": "Amazon RSA 2048 M01"
+        },
+        "subject": {
+          "CN": "*.cuchd.in"
+        },
+        "expires_at": "2026-12-18T23:59:59+00:00",
+        "days_until_expiry": 323,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "admissions.cuchd.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "ST": "Arizona",
+          "L": "Scottsdale",
+          "O": "GoDaddy.com, Inc.",
+          "OU": "http://certs.godaddy.com/repository/",
+          "CN": "Go Daddy Secure Certificate Authority - G2"
+        },
+        "subject": {
+          "CN": "*.cuchd.in"
+        },
+        "expires_at": "2027-01-29T15:36:56+00:00",
+        "days_until_expiry": 365,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": null
+      },
+      "tls_score": 80,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "hostname": "staff.cuchd.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "ST": "Arizona",
+          "L": "Scottsdale",
+          "O": "GoDaddy.com, Inc.",
+          "OU": "http://certs.godaddy.com/repository/",
+          "CN": "Go Daddy Secure Certificate Authority - G2"
+        },
+        "subject": {
+          "CN": "*.cuchd.in"
+        },
+        "expires_at": "2027-01-29T15:36:56+00:00",
+        "days_until_expiry": 365,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": null
+      },
+      "tls_score": 80,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "hostname": "www.alumni.cuchd.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Let's Encrypt",
+          "CN": "R12"
+        },
+        "subject": {
+          "CN": "alumni.cuchd.in"
+        },
+        "expires_at": "2026-04-12T11:50:00+00:00",
+        "days_until_expiry": 73,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "students.cuchd.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "ST": "Arizona",
+          "L": "Scottsdale",
+          "O": "GoDaddy.com, Inc.",
+          "OU": "http://certs.godaddy.com/repository/",
+          "CN": "Go Daddy Secure Certificate Authority - G2"
+        },
+        "subject": {
+          "CN": "*.cuchd.in"
+        },
+        "expires_at": "2027-01-29T15:36:56+00:00",
+        "days_until_expiry": 365,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": null
+      },
+      "tls_score": 80,
+      "risk_level": "MEDIUM"
+    },
+    {
+      "hostname": "blog.cuchd.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Google Trust Services",
+          "CN": "WR3"
+        },
+        "subject": {
+          "CN": "blog.cuchd.in"
+        },
+        "expires_at": "2026-03-15T23:06:08+00:00",
+        "days_until_expiry": 45,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    },
+    {
+      "hostname": "alumni.cuchd.in",
+      "certificate": {
+        "valid": true,
+        "issuer": {
+          "C": "US",
+          "O": "Let's Encrypt",
+          "CN": "R12"
+        },
+        "subject": {
+          "CN": "alumni.cuchd.in"
+        },
+        "expires_at": "2026-04-12T11:50:00+00:00",
+        "days_until_expiry": 73,
+        "expired": false,
+        "expiring_soon": false,
+        "self_signed": false
+      },
+      "https_enforcement": {
+        "http_redirect": true,
+        "redirects_to_https": true
+      },
+      "tls_score": 100,
+      "risk_level": "LOW"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "project": "Sentinel-X",
+  "module": "Asset Validation",
+  "target": "indiancyberclub.in",
+  "summary": {
+    "LIVE": 1,
+    "RESTRICTED": 0,
+    "DEAD": 0
+  },
+  "assets": [
+    {
+      "asset": "www.indiancyberclub.in",
+      "status": "LIVE",
+      "reason": "HTTP/HTTPS responding",
+      "response_time": 3.46
+    }
+  ]
+}
