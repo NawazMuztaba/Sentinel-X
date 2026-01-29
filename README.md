@@ -1,89 +1,94 @@
-Sentinel-X 🔥
+# 🔥 Sentinel-X
+### Enterprise Red Team Automation Framework
 
-🚀 Enterprise Red Team Automation Framework
-Sentinel-X is a production-grade security assessment platform that automates the complete attack lifecycle:
+🚀 **Sentinel-X** is a **production-grade security assessment platform** that automates the **complete attack lifecycle**:
 
+> **Recon → Classification → Risk Scoring → Exploitation → Executive Reports**
 
+With **one command**, Sentinel-X:
+- Discovers **1000+ assets**
+- Identifies **critical vulnerabilities**
+- Generates **CISO-ready HTML & PDF reports**
 
+---
 
-Recon → Classification → Risk Scoring → Advanced Exploitation → Executive Reports
-One command discovers 1000+ assets, finds critical vulnerabilities, and generates CISO-ready PDF/HTML reports.
+## 🎯 Live Demo
 
-🎯 Live Demo: ANY TARGET
-bash
-
-
-
+```bash
 python3 sentinelx.py example.com
-Sample Results:
-
-
-
-
+📊 Sample Results
 🎯 1,247 assets discovered
-🔴 89 HIGH-risk targets (LOGIN_PORTALS + APIs)
-⚔️ 23 successful exploits found
+
+🔴 89 HIGH-risk targets (Login Portals + APIs)
+
+⚔️ 23 successful exploits
+
 📊 HTML Dashboard + PDF PoC generated
-📊 Pipeline Overview
 
+🔁 Pipeline Overview
+🔍 Passive Recon
+crt.sh
 
+DNSDumpster
 
-1. PASSIVE RECON        → crt.sh, DNSDumpster, VirusTotal
-2. AGGRESSIVE ENUM      → Nuclei, Gobuster, FFUF
-3. INTELLIGENT SCORING  → LOGIN_PORTAL(200pts) > API(150pts)
-4. ULTIMATE EXPLOITATION→ Cred stuffing + XSS + CVE chains
-5. PROFESSIONAL REPORTS → HTML + PDF + JSON exports
+VirusTotal
+
+⚡ Aggressive Enumeration
+Nuclei
+
+Gobuster
+
+FFUF
+
+🧠 Intelligent Risk Scoring
+LOGIN_PORTAL → 200 pts
+
+API_ENDPOINT → 150 pts
+
+DEV / STAGING → Auto-prioritized
+
+⚔️ Ultimate Exploitation
+Credential stuffing
+
+XSS detection
+
+CVE chaining
+
+📄 Professional Reports
+HTML Dashboard
+
+Technical PDF
+
+JSON Exports
+
 ⚔️ Battle-Tested Capabilities
-
-
 Phase	Techniques	Output
 Discovery	1000+ subdomains, IP ranges	recon/raw/target_assets.json
-Classification	LOGIN_PORTAL, API_ENDPOINT, DEV	recon/classified/target_classified.json
-Exploitation	Cred stuffing, XSS, Nuclei CVEs	recon/exploits/target_shells/
-Reporting	Executive HTML + Technical PDF	recon/reports/target_REDTEAM_POC.pdf
+Classification	LOGIN_PORTAL, API, DEV	recon/classified/target_classified.json
+Exploitation	Cred stuffing, XSS, CVEs	recon/exploits/target_shells/
+Reporting	Executive HTML, Technical PDF	recon/reports/target_REDTEAM_POC.pdf
 🚀 Quick Start (5 Minutes)
-Prerequisites
-bash
-
-
-
-# Kali Linux / Ubuntu 22.04+
+🔧 Prerequisites
+Kali Linux / Ubuntu 22.04+
 sudo apt update && sudo apt install -y nuclei gobuster python3-pip
-Installation
-bash
-
-
-
+📦 Installation
 git clone https://github.com/YOURUSERNAME/sentinel-x.git
 cd sentinel-x
 python3 -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
-Run Full Assessment
-bash
-
-
-
+▶️ Run Full Assessment
 python3 sentinelx.py target.com
-View Results
-bash
-
-
-
+👀 View Results
 xdg-open recon/reports/target.com_REDTEAM_POC.pdf
 xdg-open recon/reports/target.com_security_report.html
 📁 Project Structure
-
-
-
-
-├```bash
 Sentinel-X/
-├── sentinelx.py              # 🔥 Main orchestrator
+├── sentinelx.py               # 🔥 Main orchestrator
 ├── modules/
-│   ├── asset_discovery/      # Recon
-│   ├── redteam/              # Exploitation
-│   ├── reporting/            # Reports
-│   └── tls_analysis/         # TLS checks
+│   ├── asset_discovery/       # Recon
+│   ├── redteam/               # Exploitation
+│   ├── reporting/             # Reports
+│   └── tls_analysis/          # TLS checks
 ├── recon/
 │   ├── raw/
 │   ├── classified/
@@ -94,93 +99,86 @@ Sentinel-X/
 ├── wordlists/
 └── requirements.txt
 🎨 Sample Reports
-🔴 RED TEAM PoC (PDF)
+🔴 Red Team PoC (PDF)
+Target: example.com
+Risk Level: CRITICAL
 
+High-Risk Findings
 
+API takeover: /api/v1/ (500KB exposed)
 
-■ RED TEAM EXPLOITATION REPORT
-■ Target: example.com
-■ HIGH RISK FINDINGS:
-  • API takeover: /api/v1/ (500KB exposed)
-  • XSS confirmed: /search?q=<script>
-  • 15 weak credentials found
-  • 7 CVEs (Nuclei confirmed)
-■ BUSINESS IMPACT: CRITICAL
+Confirmed XSS: /search?q=<script>
+
+15 weak credentials discovered
+
+7 CVEs confirmed via Nuclei
+
+Business Impact: 🚨 CRITICAL
+
 📊 Executive Dashboard (HTML)
+Total Assets: 1,247
 
+Live Assets: 892
 
+HIGH Risk: 89 🔴
 
-Total Assets: 1,247 | Live: 892 | HIGH Risk: 89
-🔴 Login Portals: 45 (publicly exposed)
-🔴 API Endpoints: 123 (auth bypass risk)
-⚠️ TLS Issues: 12 certs expiring <60 days
-✅ Remediation Priority: Top 10 targets
+Login Portals: 45
+
+API Endpoints: 123
+
+TLS Issues: 12 certs expiring < 60 days
+
+✅ Remediation Priority: Top 10 Targets
+
 🔥 Advanced Red Team Features
-1. Intelligent Target Prioritization
+🎯 Intelligent Target Prioritization
+LOGIN_PORTAL / ADMIN → 200 pts ⭐⭐⭐
 
+API / GraphQL → 150 pts ⭐⭐
 
+Admission / Student / UMS → 120 pts
 
-🎯 Smart Scoring (200pts max):
-LOGIN_PORTAL / ADMIN = 200pts ⭐⭐⭐
-API_ENDPOINT / GRAPHQL = 150pts ⭐⭐
-ADMISSION / STUDENT / UMS = 120pts ⭐
-dev.* / staging.* = AUTO-PRIORITIZED
-2. Ultimate Exploitation Engine
+dev.* / staging.* → Auto-prioritized
 
+⚔️ Ultimate Exploitation Engine
+7 Production-Grade Attack Vectors
 
+Credential stuffing (50+ combos)
 
-⚔️ 7 Attack Vectors (Production-Grade):
-✅ Credential stuffing (50+ combos)
-✅ Nuclei CVE scanning (critical/high/medium)
-✅ API fuzzing (200+ endpoints)
-✅ Session hijacking (cookie analysis)
-✅ XSS probing (reflected/DOM)
-✅ Directory brute + tech fingerprint
-✅ TLS downgrade attacks
-3. Professional Reporting Suite
+Nuclei CVE scanning
 
+API fuzzing (200+ endpoints)
 
+Session hijacking (cookie analysis)
 
-📈 Executive HTML → CISO dashboards + charts
-📄 Technical PDF → Red Team PoC + screenshots
-📊 JSON Exports → SIEM / Pentest platform integration
-🔍 Exploit Proofs → Screenshots + HTTP dumps
+Reflected & DOM XSS probing
+
+Directory brute forcing + tech fingerprinting
+
+TLS downgrade attacks
+
+📄 Professional Reporting Suite
+📈 Executive HTML Dashboard
+
+📄 Technical PDF PoC
+
+📊 JSON Exports (SIEM / Pentest tools)
+
+🔍 Exploit Proofs (screenshots + HTTP dumps)
+
 ⚡ Performance Benchmarks
-
-
-Target Size	Assets Found	Time	Memory
-Small (.edu)	35	4m32s	250MB
-Medium (.com)	247	8m14s	450MB
-Large (Enterprise)	1,247	12m45s	800MB
+Target Size	Assets	Time	Memory
+Small (.edu)	35	4m 32s	250MB
+Medium (.com)	247	8m 14s	450MB
+Large (Enterprise)	1,247	12m 45s	800MB
 🛡️ Professional Compliance
-✅ Authorized Testing Only
-✅ No Destructive Actions
-✅ Stealth Mode (WAF-friendly)
-✅ Full Audit Trail (JSON logs)
-✅ Business Risk Scoring
-✅ Remediation Recommendations
+✅ Authorized testing only
+✅ No destructive actions
+✅ Stealth mode (WAF-friendly)
+✅ Full audit trail (JSON logs)
+✅ Business risk scoring
+✅ Remediation recommendations
 
 📈 Real-World Impact
-
-
-
-"Sentinel-X found 89 high-risk assets in 12 minutes
-that our manual recon missed in 3 days" 
+"Sentinel-X found 89 high-risk assets in 12 minutes that our manual recon missed in 3 days."
 — Red Team Lead, Enterprise Client
-🤝 Contributing
-Fork the repository
-Create feature branch: git checkout -b feature/amazing-module
-Commit: git commit -m 'Add: amazing module'
-Push: git push origin feature/amazing-module
-Open Pull Request 🎉
-📄 License
-MIT License [blocked] - Commercial & Professional Use OK
-
-👥 Credits
-Built by Cybersecurity Professionals for Red Team Operations
-
-
-
-
-Sentinel-X v2.0 - Production Red Team Automation Framework
-"Complete Attack Surface → Executive Report in One Command"
