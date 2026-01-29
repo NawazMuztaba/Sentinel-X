@@ -28,37 +28,27 @@ python3 sentinelx.py example.com
 🔁 Pipeline Overview
 🔍 Passive Recon
 crt.sh
-
 DNSDumpster
-
 VirusTotal
 
 ⚡ Aggressive Enumeration
 Nuclei
-
 Gobuster
-
 FFUF
 
 🧠 Intelligent Risk Scoring
 LOGIN_PORTAL → 200 pts
-
 API_ENDPOINT → 150 pts
-
 DEV / STAGING → Auto-prioritized
 
 ⚔️ Ultimate Exploitation
 Credential stuffing
-
 XSS detection
-
 CVE chaining
 
 📄 Professional Reports
 HTML Dashboard
-
 Technical PDF
-
 JSON Exports
 
 ⚔️ Battle-Tested Capabilities
